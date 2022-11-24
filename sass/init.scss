@@ -75,6 +75,9 @@ main {
 .font {
   &-9vw {
     font-size: 9vw;
+    @media screen and (max-width:766px) {
+      font-size: 9vh;
+    }
   }
   &-bold {
     // font-weight: bold;
@@ -91,7 +94,7 @@ main {
     font-size: 47px;
 
     @media screen and (max-width: 766px) {
-      font-size: 50px;
+      font-size: 4vh
     }
   }
 

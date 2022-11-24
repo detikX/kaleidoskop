@@ -1,3 +1,5 @@
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .banner {
     position: relative;
     display: flex;
@@ -83,9 +85,12 @@
         margin-left: 32px;
        
         .tanggal {
-          font-size: 1rem;
+          font-size: 2.5rem;
           color: #272121;
           border-bottom: 1px dashed #333;
+          @media screen and (max-width:766px) {
+            font-size:1.75rem;
+          }
         }
         @media screen and (min-width:1900px) {
           margin-left: 42px;
@@ -110,9 +115,10 @@
             }
         }
         .size-p {
-            font-size: 2.2vw;
+            font-size: 1.23vw;
             margin-top: 16px;
-            line-height: 1.1;
+            font-family: 'Roboto',sans-serif;
+            line-height: 1.2;
             @media screen and (max-width:766px) {
                 font-size: 18px;
                 line-height: 1.4;
@@ -129,10 +135,55 @@
       }
     }
   }
+
+  .font-title {
+      font-size: 4.5vw;
+      // line-height: 1.1;
+      font-weight: bold;
+      @media screen and (min-width:1900px) {
+        font-size: 4vw;
+      }
+      @media screen and (max-width:766px) {
+          font-size: 4vh;
+      }
+  }
   
   .empty {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .bg {
+    &-silver {
+      background: #e2e2e2;
+    }
+  }
+
+  .bulan {
+    .berita {
+      padding: 32px;
+      height: 100vh;
+      .tanggal {
+        font-size: 2.5rem;
+        color: #272121;
+        border-bottom: 1px dashed #333;
+        @media screen and (max-width:766px) {
+          font-size:1.75rem;
+        }
+      }
+      .image {
+        width: 100%;
+        height: auto;
+        @media screen and (max-width:766px) {
+          height: 240px;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
   }
