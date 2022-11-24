@@ -43,7 +43,7 @@
           height: 80vh;
           @media screen and (max-width:766px) {
             width: 65%;
-            height: 240px;
+            height: 285px;
           }
           &__small {
             width: 175px;
@@ -85,7 +85,7 @@
         .tanggal {
           font-size: 1rem;
           color: #272121;
-          border-bottom: 1px solid;
+          border-bottom: 1px dashed #333;
         }
         @media screen and (min-width:1900px) {
           margin-left: 42px;
@@ -96,6 +96,7 @@
             margin-left: 0;
             display: block;
             margin-top: 90px;
+            padding: 0 24px 0 0 ;
         }
         .font-title {
             font-size: 4.5vw;
@@ -105,7 +106,7 @@
               font-size: 4vw;
             }
             @media screen and (max-width:766px) {
-                font-size: 21px;
+                font-size: 4vh;
             }
         }
         .size-p {
