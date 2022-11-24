@@ -73,6 +73,9 @@ main {
 }
 
 .font {
+  &-9vw {
+    font-size: 9vw;
+  }
   &-bold {
     // font-weight: bold;
     font-family: "Recoleta", serif;
