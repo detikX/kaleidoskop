@@ -29,7 +29,7 @@ gsap.registerPlugin(ScrollTrigger);
         markers: false,
         scrub: 1,
         pin: true,
-        snap: 1 / (sections.length - 1),
+        // snap: 1 / (sections.length - 1),
         end: () => "+=" + document.querySelector(".process2").offsetWidth
       },
     });
