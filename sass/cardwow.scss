@@ -1,0 +1,23 @@
+.monthx {
+    .card {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 60px;
+        flex-direction: initial;
+      }
+      
+      .card--reverse {
+        flex-direction: row-reverse;
+      }
+      
+      .card__img-holder {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+      }
+      
+      .card__text {
+        width: 400px;
+      }
+}

@@ -1,6 +1,11 @@
 // @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 // @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=News+Cycle&family=Roboto&display=swap');
+
+@import 'cardwow';
+
+$cokelat1 : #dbcbbb;
+$cokelat2 : #ede7e2;
 .banner {
     position: relative;
     display: flex;
@@ -108,11 +113,14 @@
        
         .tanggal {
           font-size: 2.5rem;
-          // width: fit-content;
-          color: #272121;
+          width: fit-content;
+          background: #272121;
+          color: white;
+          padding: 8px;
           // border-bottom: 1px dashed #333;
           @media screen and (max-width:766px) {
-            font-size:1.75rem;
+            font-size:3vh;
+            padding: 4px 8px;
           }
         }
         @media screen and (min-width:1900px) {
@@ -134,7 +142,7 @@
               font-size: 4vw;
             }
             @media screen and (max-width:766px) {
-                font-size: 4vh;
+                font-size: 4.5vh;
             }
         }
         .size-p {
@@ -192,6 +200,17 @@
       padding: 32px;
       // height: 100vh;
       // border-right: 1px solid #a9a9a9;
+      h2 {
+        font-size: 4.5vw;
+        // line-height: 1.1;
+        font-weight: bold;
+        @media screen and (min-width:1900px) {
+          font-size: 4vw;
+        }
+        @media screen and (max-width:766px) {
+            font-size: 4.5vh;
+        }
+    }
       .size-p {
         font-size: 1.3vw;
         margin-top: 16px;
