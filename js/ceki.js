@@ -12,6 +12,26 @@ gsap.registerPlugin(ScrollTrigger);
         markers: false,
         scrub: 1,
         pin: true,
+        onEnter: () => gsap.to(sections, {
+          backgroundColor: "#d5d5d5",
+          duration: 1.4
+        }),
+        onLeave: () => gsap.to(sections, {
+            backgroundColor: '#fef9ef',
+            duration: 1.4
+        }),
+        onLeaveBack: () => gsap.to(sections, {
+            backgroundColor: '#fef9ef',
+            duration: 1.4
+        }),
+        onEnterBack: () => gsap.to(sections, {
+            backgroundColor: '#d5d5d5',
+            duration: 1.4
+        }),
+        // onToggle: (self) => gsap.to(sections, {
+        //   backgroundColor: self.isActive ? color : '#fef9ef',
+        //   duration: 1.4
+        // }),
         // snap: 1 / (sections.length - 1),
         end: () => "+=" + document.querySelector(".process").offsetWidth
       },
