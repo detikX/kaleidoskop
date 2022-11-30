@@ -29,7 +29,8 @@
     //   align-items: center;
       padding: 32px 64px;
       @media screen and(min-width:1900px) {
-        padding: 32px 135px 32px 200px;
+        // padding: 32px 135px 32px 200px;
+        padding: 64px 120px;
       }
       @media screen and (max-width:766px) {
         display: block;
@@ -43,7 +44,7 @@
             top: 16px;
         }
         @media screen and (min-width:1900px) {
-          width: 30vw;
+          width: 40vw;
         }
         .image {
           width: 100%;
@@ -104,7 +105,7 @@
         }
         @media screen and (min-width:1900px) {
           margin-left: 42px;
-          width: 45vw;
+          width: 40vw;
         }
         @media screen and (max-width:766px) {
             width: 100%;
