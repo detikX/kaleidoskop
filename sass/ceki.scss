@@ -71,8 +71,10 @@ $cokelat2 : #ede7e2;
             // filter: grayscale(0);
           }
           @media screen and (max-width:766px) {
-            width: 65%;
-            height: 285px;
+
+            width: 75vw;
+            height: 50vh;
+        
           }
           &__small {
             width: 175px;
@@ -200,6 +202,9 @@ $cokelat2 : #ede7e2;
       padding: 32px;
       // height: 100vh;
       // border-right: 1px solid #a9a9a9;
+      @media screen and (max-width:766px) {
+        padding: 8px;
+      }
       h2 {
         font-size: 4.5vw;
         // line-height: 1.1;
@@ -224,12 +229,14 @@ $cokelat2 : #ede7e2;
         }
     }
       .tanggal {
-        font-size: 2rem;
-        // width: fit-content;
-        color: #272121;
-        // border-bottom: 1px dashed #333;
+        font-size: 2.5rem;
+          width: fit-content;
+          background: #272121;
+          color: white;
+          padding: 8px;
         @media screen and (max-width:766px) {
-          font-size:1.75rem;
+          font-size:3vh;
+            padding: 4px 8px;
         }
       }
       .image {
