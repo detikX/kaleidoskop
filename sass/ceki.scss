@@ -4,8 +4,17 @@
 
 @import 'cardwow';
 
+@font-face {
+  font-family: "home";
+  src: url('hinted-GTSuperDisplay-Light.woff2');
+  src: local('hinted-GTSuperDisplay-Light.woff2');
+  src: url('hinted-GTSuperDisplay-Light.woff2') format('woff2');
+}
+  
+
 $cokelat1 : #dbcbbb;
 $cokelat2 : #ede7e2;
+$kuningmuda:#ffefce;
 .banner {
     position: relative;
     display: flex;
@@ -137,9 +146,10 @@ $cokelat2 : #ede7e2;
             padding: 0 24px 0 0 ;
         }
         .font-title {
-            font-size: 4.5vw;
+            font-size: 4.7vw;
+            font-family: 'home' !important;
             // line-height: 1.1;
-            font-weight: bold;
+            // font-weight: bold;
             @media screen and (min-width:1900px) {
               font-size: 4vw;
             }
@@ -195,6 +205,12 @@ $cokelat2 : #ede7e2;
     &-silver {
       background: #e2e2e2;
     }
+    &-silver2 {
+      background: #eeeeee;
+    }
+    &-kuningmuda {
+      background: $kuningmuda;
+    }
   }
 
   .bulan {
@@ -207,6 +223,7 @@ $cokelat2 : #ede7e2;
       }
       h2 {
         font-size: 4.5vw;
+        font-family: 'home' !important;
         // line-height: 1.1;
         font-weight: bold;
         @media screen and (min-width:1900px) {
@@ -254,3 +271,4 @@ $cokelat2 : #ede7e2;
       }
     }
   }
+
