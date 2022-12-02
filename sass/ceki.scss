@@ -172,7 +172,7 @@ $kuningmuda:#ffefce;
         }
       }
       @media screen and (max-width:766px) {
-        padding: 0 16px;
+        padding: 0 24px;
       }
       
       span {
@@ -288,6 +288,19 @@ $kuningmuda:#ffefce;
       justify-content: center;
     }
 
+    .size-p {
+        font-size: 1.3vw;
+        margin-top: 16px;
+        font-family: 'News Cycle',sans-serif;
+        line-height: 1.2;
+        color: #2a2a2a;
+        // width: 70%;
+        @media screen and (max-width:766px) {
+            font-size: 16px;
+            line-height: 1.4;
+        }
+    }
+
     .image {
       width: 100%;
       height: auto;
@@ -299,7 +312,7 @@ $kuningmuda:#ffefce;
     }
     
     .panel p {
-      font-size: 6vw;
+      // font-size: 6vw;
     }
     
     .red {
@@ -321,4 +334,12 @@ $kuningmuda:#ffefce;
 
 .clear {
   clear: both;
+}
+
+.m-mobile {
+  @media screen and (max-width:766px) {
+    margin: 8px;
+    margin-left: initial;
+    margin-right: initial;
+  }
 }

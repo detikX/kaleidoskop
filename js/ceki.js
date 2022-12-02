@@ -32,7 +32,7 @@ gsap.registerPlugin(ScrollTrigger);
         //   backgroundColor: self.isActive ? color : '#fef9ef',
         //   duration: 1.4
         // }),
-        // snap: 1 / (sections.length - 1),
+        snap: 1 / (sections.length - 1),
         end: () => "+=" + document.querySelector(".process").offsetWidth
       },
     });
@@ -157,7 +157,7 @@ sectionsx.forEach((eachPanel, index) => {
       anticipatePin: 0.2,
       delay: 0
     },
-    markers: true
+    markers: false
   });
 });
 
