@@ -12,9 +12,12 @@
       }
       
       .card__img-holder {
-        width: 200px;
-        height: 200px;
+        width: 520px;
+        height: 320px;
         background-color: red;
+        @media screen and (max-width:766px) {
+          width: auto;
+        }
       }
       
       .card__text {
