@@ -138,6 +138,29 @@ targetsBreak.forEach((target, index) => {
     .to(target, { opacity: opacitySecond, duration: 0.2 }, 0.8);
 });
 
+//bulan juni full page
+let sectionsx = gsap.utils.toArray(".panel");
+
+sectionsx.forEach((eachPanel, index) => {
+  ScrollTrigger.create({
+    trigger: eachPanel,
+    start: "top top",
+
+    pin: true,
+    pinSpacing: false,
+
+    scrub: 3,
+    snap: {
+      snapTo: 1,
+      duration: { min: 0.3, max: 0.7 },
+      ease: "power2.inOut",
+      anticipatePin: 0.2,
+      delay: 0
+    },
+    markers: true
+  });
+});
+
 
 
 
