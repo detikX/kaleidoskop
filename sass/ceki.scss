@@ -288,6 +288,19 @@ $kuningmuda:#ffefce;
       justify-content: center;
     }
 
+    .tanggal {
+      font-size: 2.5rem;
+      width: fit-content;
+      background: #272121;
+      color: white;
+      padding: 8px;
+      // border-bottom: 1px dashed #333;
+      @media screen and (max-width:766px) {
+        font-size:3vh;
+        padding: 4px 8px;
+      }
+    }
+
     .size-p {
         font-size: 1.3vw;
         margin-top: 16px;
