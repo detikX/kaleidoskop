@@ -305,7 +305,7 @@ $kuningmuda:#ffefce;
     }
   }
 
-  .juni {
+  .juni,.bulan {
     .panel {
       width: 100%;
       height: 100vh;
@@ -402,4 +402,8 @@ body, main {
 
 .bulan,.monthx {
   overflow-x: clip;
+}
+
+.mt-50vh {
+  margin-top: 50%;
 }

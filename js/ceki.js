@@ -145,7 +145,6 @@ sectionsx.forEach((eachPanel, index) => {
   ScrollTrigger.create({
     trigger: eachPanel,
     start: "top top",
-
     pin: true,
     pinSpacing: false,
 
