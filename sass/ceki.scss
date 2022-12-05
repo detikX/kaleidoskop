@@ -356,3 +356,16 @@ $kuningmuda:#ffefce;
     margin-right: initial;
   }
 }
+
+.size-p {
+  font-size: 1.3vw;
+  margin-top: 16px;
+  font-family: 'News Cycle',sans-serif;
+  line-height: 1.2;
+  color: #2a2a2a;
+  // width: 70%;
+  @media screen and (max-width:766px) {
+      font-size: 16px;
+      line-height: 1.4;
+  }
+}

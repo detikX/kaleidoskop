@@ -5,6 +5,10 @@
         align-items: center;
         padding: 60px;
         flex-direction: initial;
+        @media screen and (max-width:766px) {
+          padding: 16px !important;
+          
+        }
       }
       
       .card--reverse {
@@ -21,6 +25,10 @@
       }
       
       .card__text {
-        width: 400px;
+        width: 620px;
+        @media screen and (max-width:766px) {
+          width: 100vw;
+          margin: 0 8px !important;
+        }
       }
 }
