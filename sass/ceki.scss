@@ -73,6 +73,17 @@ $kuningmuda:#ffefce;
       display: block;
     //   align-items: center;
       padding: 32px 64px;
+      position: relative;
+      &--icon {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
       @media screen and(min-width:1900px) {
         // padding: 32px 135px 32px 200px;
         padding: 64px 120px;
