@@ -23,8 +23,14 @@ $kuningmuda:#ffefce;
     justify-content: center;
 }
 
+.januari {
+ 
+}
+
 .process-wrap {
     overflow: hidden;
+    position: relative;
+    
   }
   .process,.process2 {
     width: 300%;
@@ -34,7 +40,19 @@ $kuningmuda:#ffefce;
     -ms-flex-item-align: center;
     align-self: center;
     height: 100vh!important;
-
+    &-wrap {
+      position: relative;
+      &__icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
     // background-image: url('../img/iStock-1253186607.jpg');
     // background-attachment: fixed;
     // background-size: auto;
