@@ -75,6 +75,10 @@ $kuningmuda:#ffefce;
         position: absolute;
         right: 0;
         bottom: 0;
+        @media screen and (max-width:766px) {
+          width: 240px;
+          height: 240px;
+        }
         img {
           width: 100%;
           height: 100%;
@@ -170,8 +174,9 @@ $kuningmuda:#ffefce;
         @media screen and (max-width:766px) {
             width: 100%;
             margin-left: 0;
+            position: relative;
             display: block;
-            margin-top: 90px;
+            margin-top: 36px;
             padding: 0 24px 0 0 ;
         }
         .font-title {
@@ -351,6 +356,9 @@ $kuningmuda:#ffefce;
       opacity: .8;
       transform: rotate(163deg);
       z-index: 8;
+      @media screen and (max-width:766px) {
+        width: 65vw;
+      }
       img {
         width: 100%;
         height: 100%;
@@ -364,6 +372,10 @@ $kuningmuda:#ffefce;
       height: 230px;
       z-index: 8;
       position: absolute;
+      @media screen and (max-width:766px) {
+        width: 45vw;
+        height: 165px;
+      }
       // &::before {
       //   content: "";
       //   position: absolute;
