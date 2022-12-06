@@ -217,9 +217,9 @@ $kuningmuda:#ffefce;
   .font-title {
       font-size: 4.5vw;
       // line-height: 1.1;
-      text-align: center;
-      position: relative;
-      z-index: 90;
+      // text-align: center;
+      // position: relative;
+      // z-index: 90;
       font-weight: bold;
       // font-family: 'home' !important;
       @media screen and (min-width:1900px) {
@@ -339,6 +339,10 @@ $kuningmuda:#ffefce;
     h2 {
       position: relative;
       z-index: 90;
+      
+    }
+    .font-9vw {
+      text-shadow: 2px 2px white;
     }
     .brush {
       width: 25vw;
