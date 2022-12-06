@@ -24,7 +24,20 @@ $kuningmuda:#ffefce;
 }
 
 .januari {
-  
+  .empty {
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 87%;
+      right: 0;
+      left: 0;
+      height: 150px;
+      background: linear-gradient(to top, #f4eadd, transparent);
+      @media screen and (max-width:766px) {
+        bottom: 70%;
+      }
+    }
+  }
 }
 
 .process-wrap {
@@ -241,18 +254,7 @@ $kuningmuda:#ffefce;
     display: flex;
     align-items: center;
     justify-content: center;
-    &::after {
-      content: "";
-      position: absolute;
-      bottom: 87%;
-      right: 0;
-      left: 0;
-      height: 150px;
-      background: linear-gradient(to top, #f4eadd, transparent);
-      @media screen and (max-width:766px) {
-        bottom: 70%;
-      }
-    }
+    
   }
 
   .bg {
