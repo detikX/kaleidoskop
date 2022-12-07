@@ -55,6 +55,17 @@ $kuningmuda:#ffefce;
     height: 100vh!important;
     &-wrap {
       position: relative;
+      .helping-jan {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
       &__icon {
         position: absolute;
         right: 0;
@@ -545,6 +556,66 @@ body, main {
   margin-top: 50%;
 }
 
+.maret,.februari {
+  background: url('../img/bg-1.jpg');
+  background-attachment: fixed;
+}
+
 .agustus {
   
+}
+
+.data {
+  position: relative;
+  &__bg {
+    position: absolute;
+    opacity: .5;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.totop {
+  position: relative;
+  z-index: 30;
+}
+
+.cardxx {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &__wrap {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    // padding: 20px;
+    right: 0;
+    // height: 160px;
+    background: linear-gradient(to top, black, transparent);
+    color: #fff;
+    &--title {
+      font-size: 32px;
+      padding: 8px;
+      background: linear-gradient(45deg, black, transparent);
+    }
+    &--tanggal {
+      font-size: 18px;
+      padding: 8px;
+      display: inline;
+      color: #2a2a2a;
+      background: yellow;
+    }
+  }
 }
