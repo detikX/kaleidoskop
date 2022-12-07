@@ -161,25 +161,6 @@ sectionsx.forEach((eachPanel, index) => {
 });
 
 
-let sectionsxx = gsap.utils.toArray(".panelx");
-
-gsap.to(sectionsxx, {
-  xPercent: -100 * (sectionsxx.length - 1),
-  ease: "none",
-  scrollTrigger: {
-    trigger: ".containerx",
-    pin: true,
-    scrub: 1,
-    snap: 1 / (sectionsxx.length - 1),
-    // base vertical scrolling on how wide the container is so it feels more natural.
-    end: "+=3500",
-  }
-});
-
-
-
-
-
 $(document).ready(function(){
   AOS.init({
     duration: 1200,
