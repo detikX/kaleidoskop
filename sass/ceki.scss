@@ -22,22 +22,28 @@ $kuningmuda:#ffefce;
     display: flex;
     align-items: center;
     justify-content: center;
+    .textx {
+      font-size: 5rem;
+    }
+    .yearx {
+      font-size: 8rem;
+    }
 }
 
 .januari {
   .empty {
-    &::after {
-      content: "";
-      position: absolute;
-      bottom: 87%;
-      right: 0;
-      left: 0;
-      height: 150px;
-      background: linear-gradient(to top, #f4eadd, transparent);
-      @media screen and (max-width:766px) {
-        bottom: 70%;
-      }
-    }
+    // &::after {
+    //   content: "";
+    //   position: absolute;
+    //   bottom: 87%;
+    //   right: 0;
+    //   left: 0;
+    //   height: 150px;
+    //   background: linear-gradient(to top, #f4eadd, transparent);
+    //   @media screen and (max-width:766px) {
+    //     bottom: 70%;
+    //   }
+    // }
   }
 }
 
@@ -54,8 +60,23 @@ $kuningmuda:#ffefce;
     -ms-flex-item-align: center;
     align-self: center;
     height: 100vh!important;
+    
     &-wrap {
       position: relative;
+      .test {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
       .helping-jan {
         position: absolute;
         bottom: 0;
@@ -557,7 +578,7 @@ body, main {
   margin-top: 50%;
 }
 
-.maret,.februari {
+.maret,.februari,.april {
   background: url('../img/bg-1.jpg');
   background-attachment: fixed;
   background-position: center;
@@ -659,6 +680,10 @@ body, main {
   position: relative;
   width: 100%;
   height: 420px;
+  @media screen and (max-width:766px) {
+    margin-bottom: 16px;  
+  }
+  
   img {
     width: 100%;
     height: 100%;
