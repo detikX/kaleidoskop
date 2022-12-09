@@ -30,25 +30,26 @@ $kuningmuda:#ffefce;
       font-size: 8rem;
     }
 }
-
-.januari {
-  .bulan__gear {
-    position: absolute;
-    right: 16px;
-    top: 16px;
-    filter: opacity(0.2);
+.bulan__gear {
+  position: fixed;
+  right: 16px;
+  top: 16px;
+  z-index: 6;
+  filter: opacity(0.2);
+  @media screen and (max-width:766px) {
+    width: 170px;
+    height: 170px;
+  }
+  img {
     @media screen and (max-width:766px) {
-      width: 170px;
-      height: 170px;
-    }
-    img {
-      @media screen and (max-width:766px) {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-      }
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
     }
   }
+}
+.januari {
+ 
   
   .empty {
     // &::after {
@@ -312,24 +313,36 @@ $kuningmuda:#ffefce;
   .bg {
     &-beige1{
       background: #fffaf6;
+      position: relative;
+      z-index: 11;
     }
     &-beige2 {
       background: #f4eadd;
+      position: relative;
+      z-index: 11;
     }
     &-silver {
       background: #e2e2e2;
+      position: relative;
+      z-index: 11;
     }
     &-silver2 {
       background: #eeeeee;
+      position: relative;
+      z-index: 11;
     }
     &-kuningmuda {
       background: $kuningmuda;
     }
     &-cokelat {
       background: $cokelat1;
+      position: relative;
+      z-index: 11;
     }
     &-cokelat2 {
       background: $cokelat2;
+      position: relative;
+      z-index: 11;
     }
   }
 

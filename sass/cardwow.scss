@@ -61,6 +61,8 @@
   }
     .card {
         display: flex;
+        position: relative;
+        z-index: 11;
         justify-content: space-around;
         align-items: center;
         padding: 60px;
