@@ -31,6 +31,13 @@ $kuningmuda:#ffefce;
 }
 
 .januari {
+  .bulan__gear {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    filter: opacity(0.2);
+  }
+  
   .empty {
     // &::after {
     //   content: "";
