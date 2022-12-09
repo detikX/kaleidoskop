@@ -560,6 +560,7 @@ body, main {
 .maret,.februari {
   background: url('../img/bg-1.jpg');
   background-attachment: fixed;
+  background-position: center;
 }
 
 .agustus {
@@ -681,6 +682,11 @@ body, main {
 .berita {
   .image {
     height: 330px !important;
+    width: 101% !important;
+    @media screen and (max-width:766px) {
+      height: 230px !important;
+      width: 100% !important;
+    }
     &__background {
       position: absolute;
       left: 0;
@@ -700,6 +706,9 @@ body, main {
       width: 500px;
       height: 100%;
       margin: 0 auto;
+      @media screen and (max-width:766px) {
+        width: 100%;
+      }
       img {
         width: 100%;
         height: 100%;
