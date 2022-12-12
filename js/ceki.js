@@ -162,6 +162,8 @@ sectionsx.forEach((eachPanel, index) => {
 
 
 $(document).ready(function(){
+
+  $("#play-button").click()
   AOS.init({
     duration: 1200,
   })
