@@ -791,8 +791,8 @@ body, main {
 
 #play-button{
   position: absolute;
-    left: 50%;
-    top: 50%; 
+    left: 48%;
+    top: 10%; 
     transform: translate(-50%,-50%);
     text-align: center;
     font-size: 5vw;
@@ -802,4 +802,10 @@ body, main {
       transform: translate(50%, 20%);
       font-size: 6vh;
     }
+}
+
+.bg-test {
+  background-image: url("../img/bg-test2.jpg");
+  // background-position: center;
+  background-attachment: unset;
 }
