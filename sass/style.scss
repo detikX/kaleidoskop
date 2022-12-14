@@ -46,7 +46,8 @@ $section-transition-timing-function: cubic-bezier(.4,0,.2,1);
 .ceks {
   transition: 1s;
   display: block !important;
-  z-index: 88;
+  z-index: 200;
+  overflow-y: auto;
 }
 
 .closex {
@@ -61,8 +62,8 @@ $section-transition-timing-function: cubic-bezier(.4,0,.2,1);
 section {
   position: relative;
   // background-image: radial-gradient(circle, #434343 0%, black 100%);
-  z-index: 60;
-  min-height: 100vh;
+  z-index: 10;
+  // min-height: 100vh;
   // background: linear-gradient(to bottom, rgba(76, 193, 134,.5) 10%,transparent);
   
   h2 {
