@@ -37,14 +37,14 @@ $section-transition-timing-function: cubic-bezier(.4,0,.2,1);
   left: 0;
   bottom: 0;
   right: 0;
-  transition: ease-in-out .5s;
+  transition: 1s;
   background: white;
   // display: flex;
   // justify-content: center;
   // align-items: center;
 }
 .ceks {
-  transition: ease-in-out .5s;
+  transition: 1s;
   display: block !important;
   z-index: 88;
 }
@@ -71,7 +71,30 @@ section {
 
 }
 
+.banner {
+  position: relative;
+  &__title {
+    @media screen and (max-width:766px) {
+      position: absolute;
+      left: 16px;
+      font-weight: bold;
+      top: 40px;
+      // text-align: center;
+      font-size: 2.5rem;
+      line-height: 3rem;
+    }
+  }
+  &__pembukaan {
+    position: absolute;
+    left: 16px;
+    top: 45%;
+    width: 52%;
+    font-size: 18px;
+  }
+}
+
 section {
+  background: #f4eadd;
   .image {
     width: 100vw;
     height: 100vh;
@@ -80,6 +103,9 @@ section {
       width: 100%;
       height: 100%;
       object-fit: cover;
+      @media screen and (max-width:766px) {
+        object-fit: contain;
+      }
     }
     .wrapping {
       position: absolute;
