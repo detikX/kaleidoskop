@@ -73,6 +73,9 @@ section {
 
 .banner {
   position: relative;
+  @media screen and (max-width:766px) {
+    padding-top: 24px;
+  }
   &__title {
     @media screen and (max-width:766px) {
       position: absolute;
