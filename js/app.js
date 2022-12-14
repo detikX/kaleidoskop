@@ -21,7 +21,7 @@ $(window).on("load", function () {
 
 $("#card-1").click(function(){
     // animate__fadeInTopLeft
-    $("#show-card-1").addClass('ceks animate__animated animate__bounceInUp')
+    $("#show-card-1").addClass('ceks animate__animated animate__zoomInDown')
 })
 
 $(".closex").click(function(){
