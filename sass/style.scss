@@ -258,12 +258,12 @@ section {
     position: relative;
     // top: 50vh;
     height: 100vh;
-    padding: 272px 16px;
+    padding: 102px 16px;
   }
   .trimester-2 {
-    background: beige;
+    // background: beige;
     height: 100vh;
-    padding: 272px 16px;
+    padding: 102px 16px;
     
   }
 }
@@ -275,8 +275,10 @@ section {
   cursor: pointer;
   background: #A78B71;
   padding: 8px 16px;
-  display: inline-block;
+  display: block;
   color: #fff;
+  width: fit-content;
+  margin: 16px 0 42px;
   position: relative;
   &::before {
     content: "";
