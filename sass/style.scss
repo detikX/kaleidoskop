@@ -180,9 +180,15 @@ section {
 
 .cek-bg {
   height: auto;
-  width: 640px;
+  width: 520px;
   margin: 0 auto;
+  background: #f4eadd;
+  position: relative;
   display: block;
+  // background: url('../img/frame4.png');
+  // background-size: contain;
+  // height: 300vh;
+  // background-repeat: no-repeat;
   @media screen and (max-width:766px) {
     width: auto;
   }
@@ -192,10 +198,49 @@ section {
   .image {
     width: 100%;
     height: auto;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    @media screen and (max-width:766px) {
+      top: 70px;  
+    }
     img {
       width: 100%;
       height: 100%;
       object-fit: contain;
     }
+  }
+
+  .pembukaan {
+    // position: absolute;
+    position: relative;
+    height: 90vh;
+    // top: 65vh;
+    width: 64%;
+    padding: 282px 16px 0;
+
+    // background: beige;
+    @media screen and (max-width:766px) {
+      width: 65%;
+      padding: 216px 16px 0;
+    }
+    p {
+      // position: absolute;
+      // top: 50%;
+    }
+   
+  }
+
+  .trimester-1 {
+    // position: absolute;
+    // background: steelblue;
+    position: relative;
+    // top: 50vh;
+    height: 100vh;
+    padding: 72px 0;
+  }
+  .trimester-2 {
+    background: beige;
   }
 }
