@@ -179,8 +179,10 @@ section {
 }
 
 .cek-bg {
-  // background: url('../img/frame4.png');
-  height: 3840px;
+  height: auto;
+  .titles {
+    margin: 16px 16px 0;
+  }
   .image {
     width: 100%;
     height: auto;
