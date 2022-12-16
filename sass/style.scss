@@ -177,7 +177,7 @@ section {
     p {
       font-size: 1rem;
       line-height: 1.2;
-      color: #484545;
+      color: #7d7c7c;
       @media screen and (max-width:766px) {
         font-size: 1rem;
         line-height: 1;
@@ -288,6 +288,13 @@ section {
 .bulan {
   h2 {
     margin: 0;
+    padding: 16px 0;
+    font-size: 24px;
+    font-weight: 600;
+    @media screen and (max-width:766px) {
+      font-size: 28px;
+      padding: 8px 0;
+    }
   }
   .imagexx {
     height: 200px;
