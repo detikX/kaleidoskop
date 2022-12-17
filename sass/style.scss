@@ -321,9 +321,17 @@ section {
   // display: flex;
   // justify-content: space-between;
   // align-items: center;
-  // display: inline-block;
+  display: block;
+  .click {
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 4px;
+    padding: 4px;
+    background: #ccc;
+  }
   h2 {
     margin: 0;
+    display: inline-block;
     padding: 16px 0;
     font-size: 24px;
     font-weight: 600;
