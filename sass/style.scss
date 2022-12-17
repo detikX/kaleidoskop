@@ -277,18 +277,21 @@ section {
 .gambar {
   // width: 50%;
   // height: 135px;
-  width: 30vw;
+  width: 46%;
   vertical-align: middle;
   // border: 1px solid red;
   // height: 145px;
   display: inline-block;
+  @media screen and (max-width:766px){
+    width: 30vw;
+  }
   @media screen and (max-width:360px) {
-    width: 36vw;
+    width: 36vw !important;
   }
   &__image {
-    height: 150px;
+    height: 220px;
     @media screen and (max-width:766px) {
-      height: 21vh;
+      height: 150px;
     }
     img {
       width: 100%;
@@ -304,7 +307,7 @@ section {
 
 .w-70 {
   display: inline-block;
-  width: 52%;
+  width: 53%;
   vertical-align: middle;
   @media screen and (max-width:360px) {
     width: 57% !important;
