@@ -298,7 +298,7 @@ section {
     height: 220px;
     @media screen and (max-width:766px) {
       // height: 150px;
-      height: 299px;
+      height: auto;
     }
     img {
       width: 100%;
