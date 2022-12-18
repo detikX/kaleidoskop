@@ -1,14 +1,14 @@
 $max: 766px;
 
 // @font-face {
-//   font-family: 'Montserrat', sans-serif;
+//   font-family: 'Lato', sans-serif;
 //   src: url('Recoleta-Regular.woff2');
 //   src: local('Recoleta-Regular.woff2');
 //   src: url('Recoleta-Regular.woff2') format('woff2');
 //   // src: url('bingo.otf') format('opentype');
 // }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&family=Roboto&family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
   
 
@@ -36,13 +36,13 @@ th,
 h2,
 h3 {
   // font-family: "Aleo", sans-serif;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
   // color: #393536;
   // color: #fafafa;
 }
 
 h1, h2, h3, h4, h5, h6, .body_text blockquote.sisip {
-  font-family: 'Montserrat',sans-serif !important ;
+  font-family: 'Lato',sans-serif !important ;
 }
 
 main {
@@ -85,7 +85,7 @@ main {
   }
   &-bold {
     // font-weight: bold;
-    font-family: 'Montserrat', sans-serif, serif;
+    font-family: 'Lato', sans-serif, serif;
     font-weight: 700;
     // font-family: "Bebas Neue", serif;
   }
