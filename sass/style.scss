@@ -2,7 +2,7 @@ $max: 766px;
 // $blue: rgb(83, 157, 192);
 $primary: #fafafa;
 $orange: #f7941f;
-@import url('https://fonts.googleapis.com/css2?family=News+Cycle&family=Roboto&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&family=Roboto&family=Montserrat:wght@400;600;700&display=swap');
 
   // @import "box";
 
@@ -29,7 +29,8 @@ $section-transition-timing-function: cubic-bezier(.4,0,.2,1);
   bottom: 0;
   right: 0;
   transition: 1s;
-  background: #fed8b5;
+  // background: #fed8b5;
+  background: #b0bec5;
   .mt-5 {
     // width: 520px;
     margin: 0 auto;
@@ -210,7 +211,8 @@ section {
   height: auto;
   width: 520px;
   margin: 0 auto;
-  background: #f4eadd;
+  // background: #f4eadd; //beige muda
+  background: #b0bec5;
   // background: url('../img/bg-test2.jpg');
   position: relative;
   display: block;
@@ -355,10 +357,11 @@ section {
 
   width: fit-content;
   appearance: none;
-  background-image: radial-gradient(100% 100% at 100% 0, #b85720 0, #7f3827 100%);
+  background-image: radial-gradient(100% 100% at 100% 0, #546e7a  0, #455a64 100%);
+  // background-image: radial-gradient(100% 100% at 100% 0, #b85720 0, #7f3827 100%);
   border: 0;
   border-radius: 6px;
-  box-shadow: rgb(69 43 22 / 40%) 0 2px 4px, rgb(92 44 14 / 30%) 0 7px 13px -3px, rgb(80 38 17 / 50%) 0 -3px 0 inset;
+  box-shadow: rgb(96 125 139  / 40%) 0 2px 4px, rgb(96 125 139 / 30%) 0 7px 13px -3px, rgb(96 125 139 / 50%) 0 -3px 0 inset;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
@@ -378,16 +381,16 @@ section {
 
 
   &:focus {
-    box-shadow: #b85720 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #b85720 0 -3px 0 inset;
+    box-shadow: #607d8b 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #607d8b 0 -3px 0 inset;
   }
 
   &:hover {
-    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #b85720 0 -3px 0 inset;
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #607d8b 0 -3px 0 inset;
     transform: translateY(-2px);
   }
 
   &:active {
-    box-shadow: #b85720 0 3px 7px inset;
+    box-shadow: #607d8b 0 3px 7px inset;
     transform: translateY(2px);
   }
   /*cursor: pointer;
