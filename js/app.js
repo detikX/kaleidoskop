@@ -18,13 +18,27 @@ $(window).on("load", function () {
 
 
 // });
+// var bulan = $(".bulan");
 
-var help_id = $(".bulan").attr('data-id')
-
-$("#card-"+help_id+"").click(function(){
+// var a;
+// for(a=0; a<bulan.length;a++) {
+//     // var help_id = $(".bulan").attr('data-id')
+//     var clickers = $(".bulan").attr('data-id',a)
+//     console.log(a);
+//     clickers.click(function(){
+//         // animate__fadeInTopLeft
+//         // $("#show-card-"+help_id+"").addClass('ceks animate__animated animate__zoomInDown')
+//     })
+// }
+$("#card-1").click(function(){
     // alert(help_id)
     // animate__fadeInTopLeft
-    $("#show-card-"+help_id+"").addClass('ceks animate__animated animate__zoomInDown')
+    $("#show-card-1").addClass('ceks animate__animated animate__zoomInDown')
+})
+
+$("#card-2").click(function(){
+    // animate__fadeInTopLeft
+    $("#show-card-2").addClass('ceks animate__animated animate__zoomInDown')
 })
 
 $(".closex").click(function(){
