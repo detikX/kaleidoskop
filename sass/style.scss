@@ -317,7 +317,11 @@ section {
     }
   }
 }
-
+.min-300 {
+  @media screen and (max-width:766px) {
+    min-height: 300px !important;
+  }
+}
 .wrap-test {
   display: block;
   min-height: 320px;
