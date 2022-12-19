@@ -2,7 +2,7 @@ $max: 766px;
 // $blue: rgb(83, 157, 192);
 $primary: #fafafa;
 $orange: #f7941f;
-@import url('https://fonts.googleapis.com/css2?family=News+Cycle&family=Roboto:wght@400;600;700&family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&family=Rubik:wght@400;600;700&family=Montserrat:wght@400;600;700&display=swap');
 
   // @import "box";
 
@@ -52,10 +52,13 @@ $section-transition-timing-function: cubic-bezier(.4,0,.2,1);
 }
 
 .closex {
-  position: absolute;
-  right: 24px;
-  top: 16px;
+  position: sticky;
+  right: 0;
+  top: 0;
   cursor: pointer;
+  float: right;
+  height: 40px;
+  // background: red;
   i {
     font-size: 2.5rem;
   }
@@ -230,7 +233,7 @@ section {
     width: 100%;
     height: auto;
     position: absolute;
-    top: 20px;
+    top: 60px;
     left: 0;
     right: 0;
     @media screen and (max-width:766px) {
@@ -315,12 +318,24 @@ section {
   display: block;
   ul {
     list-style-type: none;
-    // margin: 0;
     position: relative;
+    top: -12px;
     padding: 4px 16px;
+    border-left: 1px dashed;
     li {
       margin: 4px;
-      list-style-type: disc;
+      position: relative;
+      list-style-type: none;
+      &::before {
+        content: "";
+        position: absolute;
+        left: -20px;
+        width: 16px;
+        height: 10px;
+        /* background: black; */
+        top: 12px;
+        border-top: 1px dashed;
+      }
     }
     // &::before {
     //     content: "";
@@ -488,7 +503,7 @@ section {
 
 .btn-shine {
     color: #263238;
-    font-family: 'Roboto' !important;
+    font-family: 'Rubik' !important;
     background: linear-gradient(to right, #263238 0, #e4e4e4 10%, #263238 20%);
     background-position: 0;
     -webkit-background-clip: text;
@@ -498,10 +513,11 @@ section {
     animation-fill-mode: forwards;
     -webkit-text-size-adjust: none;
     font-weight: 600;
-    font-size: 2.2rem;
+    font-size: 3rem;
     text-decoration: none;
   @media screen and (max-width:766px) {
     animation: shine 5s infinite linear;
+    font-size: 2.2rem;
   }
   // white-space: nowrap;
 }
