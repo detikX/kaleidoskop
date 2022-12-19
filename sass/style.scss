@@ -256,7 +256,7 @@ section {
 
     // background: beige;
     @media screen and (max-width:766px) {
-      width: 65%;
+      width: 70%;
       padding: 216px 16px 0;
     }
     p {
@@ -272,7 +272,11 @@ section {
     position: relative;
     // top: 50vh;
     height: 100vh;
-    padding: 102px 16px;
+    padding: 402px 16px;
+    @media screen and (max-width:766px) {
+      padding: 102px 16px;  
+    }
+    
   }
   .trimester-2 {
     // background: beige;

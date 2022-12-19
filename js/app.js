@@ -24,6 +24,11 @@ $("#card-1").click(function(){
     $("#show-card-1").addClass('ceks animate__animated animate__zoomInDown')
 })
 
+$("#card-2").click(function(){
+    // animate__fadeInTopLeft
+    $("#show-card-2").addClass('ceks animate__animated animate__zoomInDown')
+})
+
 $(".closex").click(function(){
     // animate__bounceOut
     $(this).parent().removeClass('ceks')
