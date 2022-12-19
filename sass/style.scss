@@ -320,12 +320,19 @@ section {
 
 .wrap-test {
   display: block;
+  min-height: 320px;
+  @media screen and (max-width:766px) {
+    min-height: 200px;
+  }
   ul {
     list-style-type: none;
     position: relative;
     top: -12px;
     padding: 4px 16px;
     border-left: 1px dashed;
+    @media screen and (max-width:766px) {
+      padding: 4px 0px 4px 16px;
+    }
     li {
       margin: 4px;
       position: relative;
