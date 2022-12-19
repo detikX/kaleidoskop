@@ -333,7 +333,7 @@ section {
     position: relative;
     top: -12px;
     padding: 4px 16px;
-    border-left: 1px dashed;
+    border-left: 1.5px dashed;
     @media screen and (max-width:766px) {
       padding: 4px 0px 4px 16px;
     }
@@ -350,7 +350,7 @@ section {
         height: 10px;
         /* background: black; */
         top: 12px;
-        border-top: 1px dashed;
+        border-top: 1.5px dashed;
       }
     }
     // &::before {
