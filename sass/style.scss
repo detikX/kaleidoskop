@@ -313,6 +313,38 @@ section {
 
 .wrap-test {
   display: block;
+  ul {
+    list-style-type: none;
+    // margin: 0;
+    position: relative;
+    padding: 4px 16px;
+    li {
+      margin: 4px;
+      list-style-type: disc;
+    }
+    // &::before {
+    //     content: "";
+    //     position: absolute;
+    //     left: 0;
+    //     width: 100px;
+    //     top: -32px;
+    //     border-left: 1px solid white;
+    //     height: 100px;
+    // }
+    // li {
+    //   margin: 4px 16px;
+    //   position: relative;
+    //   z-index: 9;
+    //   &::before {
+    //     position: absolute;
+    //     left: -16px;
+    //     content: "";
+    //     border: 1px solid white;
+    //     width: 10px;
+    //     top: 12px;
+    //   }
+    // }
+  }
 }
 
 .w-70 {
@@ -334,10 +366,10 @@ section {
   display: block;
   .click {
     display: inline-block;
-    border-radius: 50%;
+    // border-radius: 50%;
     margin-left: 4px;
     padding: 4px;
-    background: #ccc;
+    // background: #ccc;
   }
   h2 {
     margin: 0;
@@ -373,7 +405,7 @@ section {
   padding-left: 16px;
   padding-right: 16px;
   position: relative;
-  margin: 32px 0;
+  margin: 8px 0;
   text-align: left;
   text-decoration: none;
   transition: box-shadow .15s,transform .15s;
@@ -453,3 +485,52 @@ section {
 
   // }
 }
+
+.btn-shine {
+    color: #263238;
+    background: linear-gradient(to right, #263238 0, #e4e4e4 10%, #263238 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-shadow: 1px 1px white; */
+    animation: shine_des 5s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 2.2rem;
+    text-decoration: none;
+  @media screen and (max-width:766px) {
+    animation: shine 5s infinite linear;
+  }
+  // white-space: nowrap;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0
+  }
+    
+  60% {
+    background-position: 220px
+  }
+    
+  100% {
+  background-position: 250px
+  }
+}
+
+@keyframes shine_des {
+  0% {
+    background-position: 0
+  }
+    
+  60% {
+    background-position: 300px
+  }
+    
+  100% {
+  background-position: 350px
+  }
+}
+
+    
