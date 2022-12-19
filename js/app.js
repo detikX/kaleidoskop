@@ -19,14 +19,12 @@ $(window).on("load", function () {
 
 // });
 
-$("#card-1").click(function(){
-    // animate__fadeInTopLeft
-    $("#show-card-1").addClass('ceks animate__animated animate__zoomInDown')
-})
+var help_id = $(".bulan").attr('data-id')
 
-$("#card-2").click(function(){
+$("#card-"+help_id+"").click(function(){
+    // alert(help_id)
     // animate__fadeInTopLeft
-    $("#show-card-2").addClass('ceks animate__animated animate__zoomInDown')
+    $("#show-card-"+help_id+"").addClass('ceks animate__animated animate__zoomInDown')
 })
 
 $(".closex").click(function(){
