@@ -85,7 +85,7 @@
   {
     "id": 5,
     "bulan": "Mei",
-    "addClass":"min-500",
+    "addClass":"min-300",
     "popup":[
       {
         "img":"img/foto/maret-suporter.jpeg",
@@ -112,7 +112,7 @@
   {
     "id": 6,
     "bulan": "Juni",
-    "addClass":"min-280",
+    "addClass":"min-300",
     "popup":[
       {
         "img":"img/foto/maret-suporter.jpeg",
@@ -158,7 +158,7 @@
   {
     "id": 9,
     "bulan": "September",
-    "addClass":"w-300",
+    "addClass":"min-500",
     "popup":[
       {
         "img":"img/foto/september-aung.jpeg",
