@@ -385,11 +385,13 @@ main {
 
 .scroll-down {
   position: absolute;
-  left: 50%;
-  top: 17%;
+  left: 35%;
+  top: 10%;
   /* bottom: 0; */
   z-index: 20;
   @media screen and (max-width:766px) {
+    left: 50%;
+    top: 17%;
     transform: translate(-50%, -50%);
   }
 }
@@ -433,6 +435,6 @@ main {
 
 .scroll-down {
   cursor: pointer;
-  color: white;
+  color: #263238;
 }
 
