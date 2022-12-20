@@ -556,11 +556,11 @@ section {
   @media screen and (max-width:766px) {
     animation: shine 5s infinite linear;
     font-size: 4.2rem;
-    text-shadow: 1px 1px white;
+    // text-shadow: 1px 1px white;
   }
   @media screen and (max-width:360px) {
     font-size: 3.5rem !important;
-    text-shadow: 1px 1px white;
+    // text-shadow: 1px 1px white;
     
   }
   // white-space: nowrap;
