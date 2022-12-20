@@ -42,9 +42,9 @@ $.ajax({
               depan+= `<li>${a.title}</li>`
             });
 
-
+            // data-aos="fade-right"
             $(".trimester-1").append(`
-                <div class="wrap-test ${addClass}" data-aos="fade-right">
+                <div class="wrap-test ${addClass}" >
                     <div class="w-70">
                     <div id="card-${id_}" data-id="${id_}" class="bulan">
                         <h2 class="skew-fix">${bulan}</h2>

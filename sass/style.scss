@@ -228,7 +228,7 @@ section {
   }
   .titlesx {
     position: absolute;
-      top: 7%;
+      top: 5%;
       width: 75%;
       left: 16px;
     @media screen and (max-width:766px) {
@@ -281,7 +281,7 @@ section {
     position: absolute;
     // top: 50vh;
     top: 120vh;
-    padding: 402px 16px;
+    padding: 202px 16px;
     @media screen and (max-width:766px) {
       padding: 16px;  
       top: 100vh;
@@ -328,12 +328,23 @@ section {
   }
 }
 .min-300 {
+  min-height: 300px !important;
   @media screen and (max-width:766px) {
     min-height: 300px !important;
   }
 }
 
+.min-450{
+  min-height: 450px !important;
+}
+
+.min-400 {
+  min-height: 410px !important;
+
+}
+
 .min-500 {
+  min-height: 500px !important;
   @media screen and (max-width:766px) {
     min-height: 450px !important;
   }
@@ -408,7 +419,7 @@ section {
 
 .w-70 {
   display: inline-block;
-  width: 53%;
+  width: 68%;
   vertical-align: middle;
   @media screen and (max-width:360px) {
     width: 57% !important;
@@ -557,7 +568,7 @@ section {
     animation-fill-mode: forwards;
     -webkit-text-size-adjust: none;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 4rem;
     text-decoration: none;
   @media screen and (max-width:766px) {
     animation: shine 5s infinite linear;
