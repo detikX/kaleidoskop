@@ -339,6 +339,9 @@ section {
 
 .min-450{
   min-height: 450px !important;
+  @media screen and (max-width:766px) {
+    min-height: 400px !important;
+  }
 }
 
 .min-400 {
@@ -354,7 +357,7 @@ section {
 .min-500 {
   min-height: 500px !important;
   @media screen and (max-width:766px) {
-    min-height: 450px !important;
+    min-height: 430px !important;
   }
   @media screen and (max-width:366px) {
     min-height: 200px !important;
@@ -363,7 +366,7 @@ section {
 
 .min-280 {
   @media screen and (max-width:766px) {
-    min-height: 250px !important;
+    min-height: 240px !important;
   }
   @media screen and (max-width:366px) {
     min-height: 200px !important;
