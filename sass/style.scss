@@ -558,8 +558,8 @@ section {
     font-size: 4.2rem;
     text-shadow: 1px 1px white;
   }
-  @media screen and (max-width:766px) {
-    font-size: 3.5rem;
+  @media screen and (max-width:360px) {
+    font-size: 3.5rem !important;
     text-shadow: 1px 1px white;
     
   }

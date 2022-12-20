@@ -91,3 +91,9 @@ $.ajax({
 })
 
 
+$(".scroll-down").click(() => {
+    $('html, body').animate({
+      scrollTop: $(".trimester-1").offset().top
+    }, 500);
+  
+  })
