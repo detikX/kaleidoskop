@@ -394,6 +394,9 @@ main {
     top: 17%;
     transform: translate(-50%, -50%);
   }
+  @media screen and (max-width:360px) {
+    top: 15% !important;
+  }
 }
 
 .close_ {
