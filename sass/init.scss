@@ -386,9 +386,9 @@ main {
 .scroll-down {
   position: absolute;
   left: 50%;
-  bottom: 0;
+  top: 17%;
+  /* bottom: 0; */
   z-index: 20;
-  transform: translate(0, -50%);
   @media screen and (max-width:766px) {
     transform: translate(-50%, -50%);
   }
