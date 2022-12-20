@@ -226,8 +226,17 @@ section {
   @media screen and (max-width:766px) {
     width: auto;
   }
-  .titles {
-    padding: 32px 16px 0;
+  .titlesx {
+    position: absolute;
+      top: 7%;
+      width: 75%;
+      left: 16px;
+    @media screen and (max-width:766px) {
+      position: absolute;
+      top: 7%;
+      width: 75%;
+      left: 16px;
+    }
   }
   .image {
     width: 100%;
@@ -546,7 +555,7 @@ section {
     text-decoration: none;
   @media screen and (max-width:766px) {
     animation: shine 5s infinite linear;
-    font-size: 2.2rem;
+    font-size: 4.2rem;
   }
   // white-space: nowrap;
 }
