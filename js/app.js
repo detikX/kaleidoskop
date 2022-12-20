@@ -1,47 +1,90 @@
-$(document).ready(function(){
-    new WOW().init();
-})
-$(window).on("load", function () {
-  $(".preloader").fadeOut(10000);
-  $(".preloader").remove();
-});
-// $(() => {
-//   new WOW().init();
-//   var mobile = $(".menu").addClass("mob");
-//   $(document).on("click", ".m-menu", () => {
-//     $(".menu").fadeIn("fast");
-//   });
-
-//   if ($(window).width() > 768) {
-
-//   }
-
-
+// $(document).ready(function(){
+//     new WOW().init();
+// })
+// $(window).on("load", function () {
+//   $(".preloader").fadeOut(10000);
+//   $(".preloader").remove();
 // });
-// var bulan = $(".bulan");
 
-// var a;
-// for(a=0; a<bulan.length;a++) {
-//     // var help_id = $(".bulan").attr('data-id')
-//     var clickers = $(".bulan").attr('data-id',a)
-//     console.log(a);
-//     clickers.click(function(){
-//         // animate__fadeInTopLeft
-//         // $("#show-card-"+help_id+"").addClass('ceks animate__animated animate__zoomInDown')
-//     })
-// }
-$("#card-1").click(function(){
-    // alert(help_id)
-    // animate__fadeInTopLeft
-    $("#show-card-1").addClass('ceks animate__animated animate__zoomInDown')
+$.ajax({
+    url:"js/data.json",
+    type:"GET",
+    success:(response)=>{
+        // console.log(response);
+        var a;
+        for(a=0; a<response.length; a++) {
+            var bulan = response[a].bulan;
+            var img = response[a].popup;
+            var id_ = response[a].id;
+            var addClass = response[a].addClass
+
+            var x;
+
+            var o ="";
+            var depan="";
+
+            img.map((a, n) => {
+                o += `<div class="datax">
+                <div class="datax__card">
+                  <div class="image">
+                    <img src="${a.img}" alt="">
+                  </div>
+                  <div class="desc">
+                    <h3>${a.title}</h3>
+                    <p>${a.desc}</p>
+                  </div>
+                </div>
+              </div>`;
+
+              depan+= `<li>${a.title}</li>`
+            });
+
+
+            $(".trimester-1").append(`
+                <div class="wrap-test ${addClass}">
+                    <div class="w-70">
+                    <div id="card-${id_}" data-id="${id_}" class="bulan">
+                        <h2 class="skew-fix">${bulan}</h2>
+                        <div class="click">
+                        <img src="img/click.png" alt="" width="30">
+                        </div>
+                    </div>
+                    <ul>
+                        ${depan}
+                    </ul>
+                    </div>
+                </div>
+            `)
+
+            $("#card-"+id_+"").on('click',function(){
+            // $(".bulan").on('click',function(){
+                var cek = $(this).attr("data-id")
+                // console.log(cek)
+                // alert(1)
+                // animate__fadeInTopLeft
+                $("#show-card-"+cek+"").addClass('ceks animate__animated animate__zoomInDown')
+            })
+
+
+            $("main").append(`
+            <div class="fullpagex" id="show-card-${id_}">
+                <div class="closex">
+                <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+                <div class="mt-5">
+                ${o}
+        
+                
+                </div>
+            </div>
+            `)
+            $(".closex").on('click',function(){
+                // animate__bounceOut
+                $(this).parent().removeClass('ceks animate__animated animate__zoomInDown')
+            })
+
+        }
+    }
 })
 
-$("#card-2").click(function(){
-    // animate__fadeInTopLeft
-    $("#show-card-2").addClass('ceks animate__animated animate__zoomInDown')
-})
 
-$(".closex").click(function(){
-    // animate__bounceOut
-    $(this).parent().removeClass('ceks')
-})

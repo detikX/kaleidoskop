@@ -1,102 +1,256 @@
 [
   {
     "id": 1,
-    "nama": "Zenius",
-    "tahun": "Agustus 2022",
-    "desc":"<i>Startup (edutech)</i> Zenius mengumumkan PHK sekitar 800 karyawan dari Mei hingga Agustus 2022.",
-    "situs": "https://www.zenius.net/",
-    "img":"img/logo/2.png",
-    "img_mobile":"img/logo/11.png",
-    "category":"Edutech"
+    "bulan": "Januari",
+    "addClass":"",
+    "popup":[
+      {
+        "img":"img/foto/januari-budi.jpg",
+        "title":"Vaksin Booster Pertama",
+        "desc":"<p>Sebuah apartemen di jantung kota bisnis Amerika Serikat, New York, terbakar hebat pada 9 Januari 2022. Sebanyak 19 orang dilaporkan tewas, termasuk anak-anaka. Sedangkan puluhan lainnya terluka. Insiden itu tercatat sebagai kebakaran terburuk di era modern di Amerika.</p>"
+      },
+      {
+        "img":"img/foto/januari-kebakaran.jpg",
+        "title":"Kebakaran Besar di New York",
+        "desc":"<p>Pandemi COVID-19 yang belum usai membuat pemerintah memberikan vaksinasi tambahan kepada masyarakat. Tepat pada 11 Januari, vaksin booster pertama diberikan secara gratis kepada masyarakat berusia 18 tahun ke atas dan sudah mendapatkan vaksinasi lengkap sebanyak dua kali sebelumnya.</p>"
+      }
+    ]
   },
   {
     "id": 2,
-    "nama": "Pahamify",
-    "tahun": "Juni 2022",
-    "desc":"Pahamify atau PT Pahami Cipta Edukasi <i>(Edutech)</i> mengumumkan PHK terhadap sejumlah karyawan guna optimalisasi bisnis pada Juni 2022.",
-    "situs": "https://pahamify.com",
-    "img":"img/logo/1.png",
-    "img_mobile":"img/logo/12.png",
-    "category":"Edutech"
+    "bulan": "Februari",
+    "addClass":"min-300",
+    "popup":[
+      {
+        "img":"img/foto/februari-banjarbaru.jpg",
+        "title":"Banjarbaru Pengganti Banjarmasin",
+        "desc":"<p>Ibu Kota Provinsi Kalimantan Selatan resmi dipindah dari sebelumnya Banjarmasin ke Banjarbaru melalui penetapan Undang-undang Nomor 8 Tahun 2022. Pemindahan ibu kota Kalsel ini bertujuan untuk memajukan daerah, mengingat akan lebih dekat ke ibu kota Indonesia yang baru di Kalimantan Timur.</p>"
+      }
+    ]
   },
   {
     "id": 3,
-    "nama": "LinkAja ",
-    "tahun": "Mei 2022",
-    "desc":"LinkAja <i>(fintech)</i> atau PT Fintek Karya Nusantara (Finarya) melakukan PHK terhadap ratusan karyawan (200) sekitar Mei 2022.",
-    "situs": "https://www.linkaja.id/",
-    "img":"img/logo/3.png",
-    "img_mobile":"img/logo/13.png",
-    "category":"Fintech"
+    "bulan": "Maret",
+    "addClass":"",
+    "popup":[
+      {
+        "img":"img/foto/maret-suporter.jpeg",
+        "title":"Kembali ke Stadion",
+        "desc":"<p>Lewat Instruksi Menteri Dalam Negeri Nomor 15 Tahun 2022, pemerintah kembali membolehkan kompetisi olahraga digelar dengan penonton sejak 8 Maret 2022. Beleid menjadi angin segar bagi suporter sepakbola Indonesia yang sudah lama ‘terkerangkeng’ oleh aturan Pemberlakuan Pembatasan Kegiatan Masyarakat (PPKM) selama masa pandemi COVID-19.</p>"
+      },
+      {
+        "img":"img/foto/maret-rara.jpeg",
+        "title":"Mandalika dan Rara",
+        "desc":"<p>Ajang MotoGP Mandalika 2022 berhasil membuat mata dunia terpaku ke Indonesia. Di tengah banyak kritik terkait kondisi sirkuit yang dianggap tidak cukup layak untuk ajang balap motor dunia nomor wahid, Indonesia tetap mampu menyihir dunia dengan daya magisnya. Adalah Rara Istiani Wulandari yang mampu melambungkan nama Indonesia ke mancanegara. Seorang pawang hujan nyentrik yang kehadirannya kala itu diklaim mampu menghentikan hujan deras yang mengguyur sirkuit Mandalika sebelum ajang MotoGP digelar pada 20 Maret 2022.</p>"
+      },
+      {
+        "img":"img/foto/maret-mandalika.png",
+        "title":"Lili Pintauli Nonton Balap",
+        "desc":"<p>Mantan Komisioner KPK Lili Pintauli Siregar bersama keluarga dan ajudannya tertangkap basah tengah menonton ajang balap MotoGP Mandalika pada 18-20 Maret 2022. Usut punya usut, tiket nonton dan fasilitas hotel tempat Lili menginap merupakan hadiah dari PT Pertamina (Persero). Investigasi detikX kala itu mengungkap bahwa yang memberikan fasilitas itu kepada Lili adalah Sekretaris Perusahaan PT Pertamina (Persero) Brahmantya Satyamurti Poerwadi.</p>"
+      },
+      {
+        "img":"img/foto/maret-indra.jpeg",
+        "title":"Orang-orang Kaya Gila Masuk Penjara",
+        "desc":"<p>Dua <i>crazy rich</i> (orang kaya gila) Doni Salmanan dan Indra Kesuma alias Indra Kenz ditetapkan sebagai tersangka oleh Bareskrim Polri. Doni ditetapkan sebagai tersangka tindak pidana pencucian uang. Sedangkan Indra ditetapkan sebagai tersangka penipuan investasi bodong. Keduanya merupakan afiliator binary option, seperti Binomo, Quotex, dan Olymptrade.</p>"
+      }
+    ]
   },
   {
     "id": 4,
-    "nama": "TaniHub",
-    "tahun": "Maret 2022",
-    "desc":"TaniHub <i>(agritech)</i> atau PT Tani Hub Indonesia melakukan penutupan dua gudang di Bandung dan Bali. TaniHub juga menutup layanan B2C dan fokus di B2B. Langkah itu mengakibatkan sejumlah karyawan terkena PHK pada Maret 2022",
-    "situs": "https://tanihubgroup.com/",
-    "img":"img/logo/4.png",
-    "img_mobile":"img/logo/14.png",
-    "category":"Agritech"
+    "bulan": "April",
+    "addClass":"",
+    "popup":[
+      {
+        "img":"img/foto/april-hotman.jpg",
+        "title":"Hotman Paris vs Everybody",
+        "desc":"<p>Pengacara kondang Hotman Paris dilaporkan ke Polda Metro Jaya atas dugaan konten asusila. Laporan itu dibuat oleh rekan-rekan seprofesinya yang diwakili Razman Arif Nasution pada Sabtu, 2 April 2022. Kepada wartawan, Razman mengaku bahwa dia dan rekan-rekannya sudah gerah dengan tingkah Hotman yang kerap mengunggah konten-konten perempuan seksi di media sosial.</p>"
+      },
+      {
+        "img":"img/foto/april-jokowi-marah.jpeg",
+        "title":"Jokowi Marah Besar",
+        "desc":"<p>Presiden Joko Widodo menunjukkan kemarahannya di depan publik saat menggelar rapat bersama para menterinya di Istana Negara. Kemarahan Jokowi itu disiarkan langsung di Youtube Sekretariat Presiden pada Rabu, 6 April 2022. Jokowi ‘ngamuk’ lantaran merasa para menterinya tidak mampu menyampaikan komunikasi yang baik atas tingginya harga-harga barang pokok. Saat itu, harga sejumlah kebutuhan pokok termasuk minyak goreng, gas, listrik, hingga BBM naik tinggi lantaran lonjakan harga minyak dunia dan pandemi COVID-19.</p>"
+      },
+      {
+        "img":"img/foto/april-minyak-goreng",
+        "title":"Tersangka Minyak Goreng Langka",
+        "desc":"<p>Setelah menggelar penyidikan selama sebulan, Kejaksaan Agung akhirnya menetapkan empat tersangka yang menyebabkan minyak goreng langka pada 19 April 2022. Empat orang itu adalah Direktur Jenderal Perdagangan Luar Negeri Kementerian Perdagangan, Indrasari Wisnu Wardhana; Komisaris PT Wilmar Nabati Indonesia, Master Parulian Tumanggor; Senior Manager Corporate Affairs Permata Hijau Group, Stanley MA; dan General Affairs PT Musim Mas, Togar Sitanggang.</p>"
+      },
+      {
+        "img":"img/foto/april-anak-krakatau.jpeg",
+        "title":"Anak Krakatau Membara",
+        "desc":"<p>Gunung Anak Krakatau kembali menunjukkan aktivitas yang intensif sejak awal April 2022. Pada Ahad, 24 April 2022, status Anak Krakatau naik dari waspada Level II menjadi Siaga Level III. Meningkatnya status Gunung Anak Krakatau ini sempat membuat BMKG mengeluarkan peringatan tsunami dini.</p>"
+      }
+    ]
   },
   {
     "id": 5,
-    "nama": "Lummo ",
-    "tahun": "Juni 2022",
-    "desc":"Lummo <i>(startup SaaS)</i> dikabarkan melakukan PHK terhadap 100 karyawannya di Indonesia sekitar Juni 2022. Berbarengan dengan itu, Lummo menghentikan ekspansi dari layanan LummoShop. PHK tersebut sebagai imbas dari situasi ekonomi global dan sulitnya akses pendanaan.",
-    "situs": "https://www.lummoshop.co.id/",
-    "img":"img/logo/5.png",
-    "img_mobile":"img/logo/15.png",
-    "category":"SaaS (Software as a Service)"
+    "bulan": "Mei",
+    "addClass":"min-500",
+    "popup":[
+      {
+        "img":"img/foto/maret-suporter.jpeg",
+        "title":"Penembakan Texas",
+        "desc":"<p>Penembakan brutal terjadi di sebuah sekolah dasar di Texas, Amerika Serikat. Penembakan ini menjadi berita internasional karena brutalitasnya menewaskan belasan korban, termasuk siswa dan guru.</p>"
+      },
+      {
+        "img":"img/foto/mei-eril.jpeg",
+        "title":"Eril Terseret Arus Sungai",
+        "desc":"<p>Emmeril Kahn Mumtadz atau Eril, anak Gubernur Jawa Barat Ridwan Kamil, dinyatakan hilang terseret arus Sungai Aare di Barn, Swiss, pada 26 Mei 2022. Eril terbawa arus sungai saat berenang bersama adik dan kawannya.</p>"
+      },
+      {
+        "img":"img/foto/maret-mandalika.png",
+        "title":"Tersangka Minyak Goreng Langka",
+        "desc":"<p>Setelah menggelar penyidikan selama sebulan, Kejaksaan Agung akhirnya menetapkan empat tersangka yang menyebabkan minyak goreng langka pada 19 April 2022. Empat orang itu adalah Direktur Jenderal Perdagangan Luar Negeri Kementerian Perdagangan, Indrasari Wisnu Wardhana; Komisaris PT Wilmar Nabati Indonesia, Master Parulian Tumanggor; Senior Manager Corporate Affairs Permata Hijau Group, Stanley MA; dan General Affairs PT Musim Mas, Togar Sitanggang.</p>"
+      },
+      {
+        "img":"img/foto/maret-indra.jpeg",
+        "title":"Anak Krakatau Membara",
+        "desc":"<p>Gunung Anak Krakatau kembali menunjukkan aktivitas yang intensif sejak awal April 2022. Pada Ahad, 24 April 2022, status Anak Krakatau naik dari waspada Level II menjadi Siaga Level III. Meningkatnya status Gunung Anak Krakatau ini sempat membuat BMKG mengeluarkan peringatan tsunami dini.</p>"
+      }
+    ]
   },
   {
     "id": 6,
-    "nama": "Mobile Premier Legue",
-    "tahun": "Mei 2022",
-    "desc":"Perusahaan rintisan <b>Mobile Premier League</b> atau MPL <i>(Gaming)</i> mengumumkan hengkang dari pasar Indonesia pada Mei 2022. Sejak 30 Mei 2022, MPL Indonesia sudah tidak beroperasi.",
-    "situs": "https://www.mpl.live/",
-    "img":"img/logo/6.png",
-    "img_mobile":"img/logo/16.png",
-    "category":"Game"
+    "bulan": "Juni",
+    "addClass":"min-280",
+    "popup":[
+      {
+        "img":"img/foto/maret-suporter.jpeg",
+        "title":"Formula E Jakarta",
+        "desc":"<p>Jakarta menjadi tuan rumah balap ABB FIA Formula E pada tanggal 4 Juni 2022. Penyelenggaraan event internasional ini merupakan hasil keputusan FIA World Motor Sport Council di Paris, pada 15 Oktober 2021.</p>"
+      },
+      {
+        "img":"img/foto/maret-rara.jpeg",
+        "title":"Samin Tan Bebas",
+        "desc":"<p>Masuk ke dalam Daftar Pencarian Orang dan menjadi target operasi para penyidik Komisi Pemberantasan Korupsi sejak Mei 2020, taipan batu bara Samin Tan berhasil ditangkap pada 5 April 2021. Namun, Samin Tan justru dibebaskan oleh Majelis Hakim Mahkamah Agung pada 9 Juni 2022.</p>"
+      }
+    ]
   },
   {
     "id": 7,
-    "nama": "Mamikos",
-    "tahun": "Mei 2022",
-    "desc":"Perusahaan rintisan penyedia sewa hunian, Mamikos pada Juli lalu juga melakukan PHK terhadap sekitar 100 karyawannya.",
-    "situs": "https://mamikos.com",
-    "img":"img/logo/7.png",
-    "img_mobile":"img/logo/17.png",
-    "category":"Marketplace"
+    "bulan": "Juli",
+    "addClass":"min-300",
+    "popup":[
+      {
+        "img":"img/foto/maret-suporter.jpeg",
+        "title":"Teka-Teki Pembunuhan Brigadir J",
+        "desc":"<p>Bak drama sinetron, kasus pembunuhan berencana terhadap Brigadir Nopriansyah Yosua Hutabarat alias Brigadir J, telah menyita perhatian seluruh masyarakat Indonesia. Melalui meja hijau, hakim masih berupaya mengungkap siapa dalang dibalik kasus pembunuhan ini. Dalam sidang, Ferdy Sambo didakwa melakukan pembunuhan berencana terhadap Brigadir J yang merupakan bawahannya sendiri. Perbuatan itu dilakukan bersama-sama dengan Richard Eliezer Pudihang Lumiu, Putri Candrawathi, Ricky Rizal Wibowo, dan Kuat Ma'ruf.</p>"
+      },
+      {
+        "img":"img/foto/maret-rara.jpeg",
+        "title":"Fenomena Citayam Fashion Week",
+        "desc":"<p>Segerombolan remaja dari kota penyangga di sekitar Jakarta seperti Citayam, Bojong Gede, Bogor dan Depok, menyulap kawasan Dukuh Atas, Jakarta Pusat, menjadi tempat adu gaya pakaian nyentrik. Setelah viral, 'pameran' busana jalanan ini diberi nama Citayam Fashion Week (CFW). Bonge alias Eka Satria Saputra dan Jeje atau Jasmin Laticia merupakan salah satu ikon yang mendadak terkenal dan ikut membesarkan nama CFW. Belakangan sejumlah pihak rebutan untuk mendapatkan Hak Kekayaan Intelektual (HAKI) dari CFW ini.</p>"
+      }
+    ]
   },
   {
     "id": 8,
-    "nama": "JD.ID",
-    "tahun": "Mei 2022",
-    "desc":"Salah satu startup <i>e-commerce</i> pada Mei 2022 melakukan PHK terhadap sejumlah pekerjanya. Upaya itu disebut untuk menjaga agar JD.ID tetap mampu bersaing dengan <i>platform</i> <i>e-commerce</i> lainnya.",
-    "situs": "https://jd.id",
-    "img":"img/logo/8.png",
-    "img_mobile":"img/logo/18.png",
-    "category":"E-Commerce"
+    "bulan": "Agustus",
+    "addClass":"w-300",
+    "popup":[
+      {
+        "img":"img/foto/maret-suporter.jpeg",
+        "title":"Selamat Datang Cacar Monyet",
+        "desc":"<p>Beberapa upaya preventif telah dilakukan pemerintah untuk mencegah masuknya virus monkeypox alias cacar monyet masuk ke Indonesia. Namun pada Sabtu (20/8/2022), Kementerian Kesehatan resmi mengumumkan satu warga negara Indonesia terkonfirmasi menderita virus cacar monyet. Pasien tersebut merupakan seorang laki-laki berusia 27 tahun, dengan riwayat perjalanan ke Belanda, Swiss, Belgia dan Perancis sebelum tertular. Gejala yang dialami tergolong ringan. Seperti demam dan ruam di beberapa bagian tubuh. Untuk mencegah penularan virus, pemerintah melakukan pelacakan kontak erat pasien.</p>"
+      }
+    ]
   },
   {
     "id": 9,
-    "nama": "Tokocrypto",
-    "tahun": "September 2022",
-    "desc":"Platform perdagangan aset kripto itu mengumumkan mengurangi 20 persen dari total 225 karyawannya atau sekitar 45 orang pada 21 September 2022.",
-    "situs": "https://tokocrypto.com",
-    "img":"img/logo/9.png",
-    "img_mobile":"img/logo/19.png",
-    "category":"Crypto"
+    "bulan": "September",
+    "addClass":"w-300",
+    "popup":[
+      {
+        "img":"img/foto/maret-suporter.jpeg",
+        "title":"Hukuman Aung San Suu Kyi",
+        "desc":"<p>Peraih penghargaan Nobel Perdamaian, Aung San Suu Kyi dijatuhi hukuman 3 tahun penjara karena dituduh melakukan kecurangan dalam Pemilu 2020 di Myanmar pada 2 September 2022. Sebelumnya, mantan Penasehat Negara Myanmar ini telah divonis hukuman 17 tahun penjara karena dituduh berbagai kasus. Diantaranya kasus korupsi, penghasutan, melanggar Undang-Undang Penanggulangan Bencana Alam, melanggaran aturan pencegahan COVID-19, melanggar Undang-Undang Ekspor dan Impor, serta Undang-Undang Komunikasi pada 2021 lalu.</p>"
+      },
+      {
+        "img":"img/foto/maret-suporter.jpeg",
+        "title":"Jokowi Umumkan BBM Subsidi Naik",
+        "desc":"<p>Presiden Joko Widodo mengumumkan secara resmi kenaikan harga bahan bakar minyak (BBM) subsidi, seperti Pertalite dan Solar, Sabtu, 3 September 2022. Hal ini dipicu akibat harga minyak dunia yang terus bergejolak. Juga melihat kenyataan hampir 70 persen BBM subdisi malah dimanfaatkan orang kaya. Akhirnya, subsidi BBM dialihkan menjadi Bantuan Langsung Tunai (BLT) BBM sebesar Rp 12,4 triliun bagi 20,65 juta keluarga kurang mampu, subsidi upah, bantuan untuk angkutan umum dan nelayan. Aksi penimbunan BBM subsisi, seperti pertalite dan solar terjadi di sejumlah daerah.</p>"
+      },
+      {
+        "img":"img/foto/maret-suporter.jpeg",
+        "title":"Ratu Elizabeth II Wafat, Pangeran Charles Naik Tahta",
+        "desc":"<p>Elizabeth Alexandra Mary atau Ratu Inggris Elizabeth II  wafat diusianya yang ke-96 tahun pada 8 September 2022. Dari dokumen National Records of Scotland, ratu Inggris terlama sejak 1952 ini disebutkan meninggal karena usia tua di Kastil Barmoral, Ballater, Scotlandia. Sebagai penggantinya, Charles Philip Arthur George (Charles III) atau Pangeran Charles naik tahta menjadi Raja Inggris Raya pada hari itu juga.</p>"
+      }
+
+    ]
   },
   {
     "id": 10,
-    "nama": "Shopee",
-    "tahun": "September 2022",
-    "desc":"Shopee, <i>e-commerce</i> asal Singapura yang beroperasi di Indonesia, juga dilaporkan melakukan PHK. PHK itu dilakukan kepada 3 persen pekerjanya atau hampir 200 pekerja pada September 2022. Sejak akhir 2021, Sea Group, perusahaan induk Shopee, telah kehilangan valuasi USD 150 miliar atau Rp 2.145 triliun.",
-    "situs": "https://shopee.co.id",
-    "img":"img/logo/10.png",
-    "img_mobile":"img/logo/20.png",
-    "category":"E-Commerce"
+    "bulan": "Oktober",
+    "addClass":"w-300",
+    "popup":[
+      {
+        "img":"img/foto/maret-suporter.jpeg",
+        "title":"Tragedi Kanjuruhan ",
+        "desc":"<p>Dunia persepakbolaan dunia berduka mendengar tragedi kematian 133 penonton di Stadion Kanjuruhan, Malang, Jawa Timur, Sabtu, 1 Oktober 2022. Mereka mati akibat dipukuli dan ditembakan gas air mata oleh aparat keamanan di dalam stadion pasca menonton pertandingan Liga 1 Indonesia antara Arema FC vs Persebaya Surabaya dengan skor 2-3. Selain itu, 583 penonton lainnya mengalami luka-luka cukup parah. Peristiwa itu merupakan tragedi kedua terbanyak korban kematian penonton dalam sepak bola dunia. Setelah kejadian di Lima, Peru yang menyebabkan 328 penonton tewas pada 1964.</p>"
+      },
+      {
+        "img":"img/foto/maret-suporter.jpeg",
+        "title":"Penembakan Massal di Thailand",
+        "desc":"<p>Seorang mantan polisi Kerajaan Thailand, Panya Khamrab berpangkat Letnan Kolonel tiba-tiba menyerang dan menembaki pusat penitipan anak di Distrik Uthaisawan Na Klang, Provinsi Nong Bua Lam Phu, Kamis, 6 Oktober 2022. Dengan senapan, pistol dan pisau, Khamrab membunuh 36 orang. Dari jumlah itu, 24 diantaranya anak-anak dan balita, serta istri dan anak tiri Khamrab sendiri. Pria yang berusia 34 tahun itu dipecat akibat terlibat kepemilikan narkoba. Usai membunuh di tempat itu, Khamrab akhirnya mengakiri hidupnya dengan bunuh diri.</p>"
+      },
+      {
+        "img":"img/foto/maret-suporter.jpeg",
+        "title":"Anies Baswedan Lengser",
+        "desc":"<p>Presiden Joko Widodo melalu surat Keputusan Presiden Nomor 100/P Tahun 2022 memberhentikan Anies Baswedan selaku Gubernur DKI Jakarta dan Ahmad Riza Patria selaku Wakil Gubernur DKI Jakarta, karena masa baktinya telah selesai pada 16 Oktober 2022. Kursi yang kosong diisi oleh Heru Budi Hartono sebagai Penanggung Jawab (Pj) Gubernur DKI Jakarta.</p>"
+      },
+      {
+        "img":"img/foto/maret-suporter.jpeg",
+        "title":"Konser Musik di Myanmar Dibom",
+        "desc":"<p>Junta militer Myanmar menjatuhkan bom di tengah penyelenggaraan konser musik ulang tahun Organisasi Kemerdekaan Kachin (KIO) di Desa Aung Bar Lay, Kota Hpakant atau 950 Km sebelah utara kota Yangoon pada Minggu, 23 Oktober 2022. Bom yang dijatuhkan dari pesawat tempur ke kawasan industri batu giok itu menewaskan 80 orang dan 100 orang luka-luka. Para korban diantaranya para musisi dan artis lokal. Militer Myanmar berdalih penyerangan itu merupakan operasi untuk melumpuhkan tindakan teroris di markas Brigade ke-9 Tentara Kemerdekaan Kachin.</p>"
+      },
+      {
+        "img":"img/foto/maret-suporter.jpeg",
+        "title":"Tragedi Halloween Itaewon",
+        "desc":"<p>154 orang tewas akibat berdesak-desakan dalam kerumunan massa di tengah merayakan Festival Halloween di kawasan Itaewon, distrik Yongsan-gu, Kota Seoul, Korea Selatan pada Sabtu, 29 Oktober 2022 malam. Kerumunan massa berjumlah 100 ribu orang berjejalan di kawasan barang antik dan museum perang Korea kehabisan oksigen. Ikut menjadi korban tewas, yaitu Lee Ji Han (aktor Korsel), Raghu Jordagan alias Rhau (penata busana asal Malaysia) dan Grace Racher (artis dan produser film asal Australia). Massa yang tak terkendali ini merupakan buntut dari pelonggaran protokol kesehatan COVID-19.</p>"
+      }
+
+    ]
+  },
+  {
+    "id": 11,
+    "bulan": "November",
+    "addClass":"w-300",
+    "popup":[
+      {
+        "img":"img/foto/maret-suporter.jpeg",
+        "title":"Kasus Kalideres",
+        "desc":"<p>Warga menemukan empat jasad sekeluarga dalam rumah di Perum Citra Garden I, Kalideres, Jakarta Barat, menggemparkan warga. Jasad keempat korban tersebut ditemukan dalam kondisi 'mengering', tinggal tulang dan kulit saja.</p>"
+      },
+      {
+        "img":"img/foto/maret-suporter.jpeg",
+        "title":"KTT G20",
+        "desc":"<p>G20 merupakan sebuah platform multilateral strategis yang menghubungkan negara-negara dengan perekonomian besar di dunia. Anggota G20 merepresentasikan lebih dari 80 persen perekonomian dunia, 75 persen perdagangan internasional, dan 60 persen populasi dunia.</p>"
+      },
+      {
+        "img":"img/foto/maret-suporter.jpeg",
+        "title":"Gempa Bumi Cianjur",
+        "desc":"<p>Gempabumi Cianjur terjadi pada tanggal 21 November 2022 pukul 13:21:10 WIB. Episenter gempa berada pada koordinat 6,84 LS – 107,05 dan kedalaman 11 km dengan magnitudo 5,6. Sampai tanggal 28 November 2022, pukul 07:00 WIB, BMKG telah mencatat 297 gempa susulan dengan magnitudo terbesar M4,2 dan terkecil M1,0.</p>"
+      }
+
+    ]
+  },
+  {
+    "id": 12,
+    "bulan": "Desember",
+    "addClass":"w-300",
+    "popup":[
+      {
+        "img":"img/foto/maret-suporter.jpeg",
+        "title":"RUU KUHP Disahkan",
+        "desc":"<p>DPR RI resmi mengesahkan Rancangan Kitab Undang-Undang Hukum Pidana (RKUHP) menjadi undang-undang. Pengesahan itu diambil saat pembicaraan Tingkat II di rapat paripurna ke-11 masa persidangan II tahun sidang 2022-2023.</p>"
+      },
+      {
+        "img":"img/foto/maret-suporter.jpeg",
+        "title":"Penetapan Partai Peserta Pemilu",
+        "desc":"<p>KPU resmi mengumumkan partai-partai yang dinyatakan lolos sebagai peserta Pemilu 2024. Dalam pengumumannya, ada 17 partai politik yang dinyatakan lolos verifikasi.</p>"
+      }
+
+    ]
   }
+  
 ]

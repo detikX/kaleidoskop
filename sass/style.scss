@@ -232,12 +232,12 @@ section {
   .image {
     width: 100%;
     height: auto;
-    position: absolute;
-    top: 60px;
+    position:relative;
+    top: 30px;
     left: 0;
     right: 0;
     @media screen and (max-width:766px) {
-      top: 70px;  
+      top: -46px;  
     }
     img {
       width: 100%;
@@ -269,12 +269,13 @@ section {
   .trimester-1 {
     // position: absolute;
     // background: steelblue;
-    position: relative;
+    position: absolute;
     // top: 50vh;
-    height: 100vh;
+    top: 120vh;
     padding: 402px 16px;
     @media screen and (max-width:766px) {
       padding: 16px;  
+      top: 100vh;
     }
     
   }
@@ -320,6 +321,18 @@ section {
 .min-300 {
   @media screen and (max-width:766px) {
     min-height: 300px !important;
+  }
+}
+
+.min-500 {
+  @media screen and (max-width:766px) {
+    min-height: 500px !important;
+  }
+}
+
+.min-280 {
+  @media screen and (max-width:766px) {
+    min-height: 250px !important;
   }
 }
 .wrap-test {
