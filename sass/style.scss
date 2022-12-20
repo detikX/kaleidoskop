@@ -344,6 +344,12 @@ section {
     min-height: 250px !important;
   }
 }
+
+.min-150 {
+  @media screen and (max-width:766px) {
+    min-height: 150px !important;
+  }
+}
 .wrap-test {
   display: block;
   min-height: 320px;
