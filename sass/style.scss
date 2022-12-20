@@ -332,6 +332,9 @@ section {
   @media screen and (max-width:766px) {
     min-height: 300px !important;
   }
+  @media screen and (max-width:366px) {
+    min-height: 200px !important;
+  } 
 }
 
 .min-450{
@@ -340,7 +343,12 @@ section {
 
 .min-400 {
   min-height: 410px !important;
-
+  @media screen and (max-width:766px) {
+    min-height: 200px !important;
+  }
+  @media screen and (max-width:366px) {
+    min-height: 200px !important;
+  }
 }
 
 .min-500 {
@@ -348,11 +356,17 @@ section {
   @media screen and (max-width:766px) {
     min-height: 450px !important;
   }
+  @media screen and (max-width:366px) {
+    min-height: 200px !important;
+  }
 }
 
 .min-280 {
   @media screen and (max-width:766px) {
     min-height: 250px !important;
+  }
+  @media screen and (max-width:366px) {
+    min-height: 200px !important;
   }
 }
 
