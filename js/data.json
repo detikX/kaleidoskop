@@ -176,7 +176,7 @@
   {
     "id": 10,
     "bulan": "Oktober",
-    "addClass":"w-300",
+    "addClass":"min-300",
     "popup":[
       {
         "img":"img/foto/oktober-kanjuruhan.jpeg",
@@ -204,7 +204,7 @@
   {
     "id": 11,
     "bulan": "November",
-    "addClass":"w-300",
+    "addClass":"min-150",
     "popup":[
       {
         "img":"img/foto/november-kalideres.jpeg",
@@ -227,7 +227,7 @@
   {
     "id": 12,
     "bulan": "Desember",
-    "addClass":"w-300",
+    "addClass":"min-300",
     "popup":[
       {
         "img":"img/foto/desember-kuhp.jpeg",
