@@ -12,6 +12,12 @@ $(document).ready(function(){
 $.ajax({
     url:"js/data.json",
     type:"GET",
+    beforeSend: function(){
+      $(".preloader").show()
+    },
+    complete: function(){
+      $(".preloader").hide();
+    },
     success:(response)=>{
         // console.log(response);
         var a;
