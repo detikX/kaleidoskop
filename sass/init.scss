@@ -389,10 +389,13 @@ main {
   top: 10%;
   /* bottom: 0; */
   z-index: 20;
+  .wow {
+    display: inline-block;
+  }
   @media screen and (max-width:766px) {
-    left: 50%;
+    left: 16px;
     top: 15%;
-    transform: translate(-50%, -50%);
+    transform: translate(-0%, -0%);
   }
   @media screen and (max-width:360px) {
     top: 12% !important;
