@@ -629,27 +629,47 @@ section {
   width: 520px;
   margin: 0 auto;
   display: block;
+  @media screen and (max-width:766px) {
+    width: auto;
+  }
+  .all {
+    padding: 46px 0 0;
+  }
+
+  td,tr {
+    border-collapse: collapse;
+  }
+  td {
+    color: #b0bec5;
+  }
   
   .clapper {
-    background-color: #111;
-    height: 80px;
-    width: 100px;
+    background-color: #263238 ;
+    height: 250px;
+    width: 100%;
+    margin: 24px 0;
     position: relative;
+    &:hover {
+      .c:nth-of-type(1) {
+        transform: rotate(-30deg);
+      }
+    }
   }
-  .clapper > div {
-    background: repeating-linear-gradient(135deg, #111 0%, #111 10%, #fff 10%, #fff 20%);
+  .clapper > .c {
+    background: repeating-linear-gradient(135deg, #263238  0%, #263238  10%, #fff 10%, #fff 20%);
     height: 10px;
-    width: 110px;
+    width: 100%;
     position: absolute;
     left: -5px;
     top: 0;
   }
-  .clapper > div:nth-of-type(1) {
-    background: repeating-linear-gradient(-135deg, #fff 0%, #fff 10%, #111 10%, #111 20%);
+  .clapper > .c:nth-of-type(1) {
+    background: repeating-linear-gradient(-135deg, #fff 0%, #fff 10%, #263238  10%, #263238  20%);
     top: -10px;
   }
-  .clapper > div:nth-of-type(1) {
+  .clapper > .c:nth-of-type(1) {
     animation-name: open;
+    transition: .3s;
     transform-origin: left;
     animation-duration: .25s;
     animation-timing-function: ease-out;
