@@ -664,9 +664,9 @@ section {
     margin: 24px 0;
     position: relative;
     &:hover {
-      .c:nth-of-type(1) {
-        transform: rotate(-30deg);
-      }
+      // .c:nth-of-type(1) {
+      //   transform: rotate(-30deg);
+      // }
     }
   }
   .clapper > .c {
@@ -680,16 +680,32 @@ section {
   .clapper > .c:nth-of-type(1) {
     background: repeating-linear-gradient(-135deg, #fff 0%, #fff 10%, #263238  10%, #263238  20%);
     top: -10px;
+    animation: buka 6s linear infinite;
   }
+
+ 
   .clapper > .c:nth-of-type(1) {
-    animation-name: open;
-    transition: .3s;
-    transform-origin: left;
-    animation-duration: .25s;
-    animation-timing-function: ease-out;
-    animation-delay: 1s;
-    animation-iteration-count: 2;
+    // animation-name: open;
+    // transition: .3s;
+    // animation-duration: .25s;
+    // animation-timing-function: ease-out;
+    // animation-delay: 1s;
+    // animation-iteration-count: 2;
+    
     animation-direction: alternate;
+    animation-duration: 1.5s;
+    transform-origin: left;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-name: buka;
+  }
+
+  @keyframes buka {
+    to {
+      transform: rotate(-10deg);
+    }
   }
   
   @keyframes open {
