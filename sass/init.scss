@@ -391,11 +391,11 @@ main {
   z-index: 20;
   @media screen and (max-width:766px) {
     left: 50%;
-    top: 17%;
+    top: 15%;
     transform: translate(-50%, -50%);
   }
   @media screen and (max-width:360px) {
-    top: 15% !important;
+    top: 12% !important;
   }
 }
 
