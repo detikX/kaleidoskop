@@ -627,6 +627,8 @@ section {
 .credits {
   height: auto;
   width: 520px;
+  position: relative;
+  top: -72px;
   margin: 0 auto;
   display: block;
   @media screen and (max-width:766px) {
@@ -639,13 +641,21 @@ section {
   td,tr {
     border-collapse: collapse;
   }
+
+  tr{
+    &:nth-child(odd) {
+      td {
+        color: #7c8d95;
+      }
+    }
+  }
   td {
-    color: #b0bec5;
+    color: #d9e0e4;
   }
   
   .clapper {
     background-color: #263238 ;
-    height: 250px;
+    // height: 250px;
     width: 100%;
     margin: 24px 0;
     position: relative;
