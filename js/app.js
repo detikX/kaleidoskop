@@ -103,3 +103,31 @@ $(".scroll-down").click(() => {
     }, 500);
   
   })
+
+  const pauseVar = "fa-pause-circle";
+const playVar = "fa-play-circle";
+
+const btns = document.querySelectorAll(".all");
+
+function onChange(event) {
+  const buttonElement = event.currentTarget;
+
+  const isPlayButton = buttonElement.classList.contains(playVar);
+
+  if (isPlayButton) {
+    buttonElement.classList.remove(playVar);
+    buttonElement.classList.add(pauseVar);
+    $("#play-button").removeClass("animate__infinite");
+    $("#myAudio").get(0).play();
+  } else {
+    buttonElement.classList.remove(pauseVar);
+    buttonElement.classList.add(playVar);
+    $("#play-button").addClass("animate__infinite");
+    $("#myAudio").get(0).pause();
+  }
+}
+
+// query selector all returns a list of nodes, therefore we need to iterate over it and attach an event listener to each button seperatly
+btns.forEach((btn) => {
+  btn.addEventListener("click", onChange);
+});

@@ -213,6 +213,7 @@ section {
 .cek-bg {
   height: auto;
   width: 520px;
+  z-index: 4;
   margin: 0 auto;
   // background: #f4eadd; //beige muda
   background: radial-gradient(circle,#b0bec5, #d5e1e6 );
@@ -242,11 +243,11 @@ section {
     width: 100%;
     height: auto;
     position:relative;
-    top: -102px;
+    top: -32px;
     left: 0;
     right: 0;
     @media screen and (max-width:766px) {
-      top: -46px;  
+      top: -14px;  
     }
     img {
       width: 100%;
@@ -345,6 +346,11 @@ section {
   @media screen and (max-width:766px) {
     min-height: 400px !important;
   }
+}
+
+#nav.dark {
+  // background: rgba(38, 50, 56, .7);
+  background: rgb(84 110 122 / 70%);
 }
 
 .min-400 {
@@ -735,6 +741,7 @@ section {
   position: fixed;
   left: 0;
   right: 0;
+  z-index: 1;
   top: 0;
   bottom: 0;
   width: 100%;
@@ -745,4 +752,58 @@ section {
     height: 100%;
     object-fit: cover;
   }
+}
+
+#play-button {
+  position: relative;
+  z-index: 9;
+  .teks {
+    position: absolute;
+    right: 24px;
+    top: -16px;
+    font-style: italic;
+    font-weight: bold;
+    background: rgba($color: white, $alpha: 0.5);
+    @media screen and (max-width: 766px) {
+      display: none;
+    }
+  }
+}
+// p {
+//   text-align: justify;
+// }
+.play-button {
+  width: 36px;
+  height: 36px;
+  // border: 3px solid;
+  background: white;
+  margin: 8px;
+  cursor: pointer;
+  padding: 0px;
+  border-radius: 50%;
+  text-align: center;
+  // position: fixed;
+  // top: 0;
+  position: absolute;
+  @media screen and (max-width: 766px) {
+    top: 20vh;
+    left: 8px;
+  }
+  right: 0;
+  z-index: 999;
+
+  i {
+    // background-color: red;
+    font-size: 36px;
+    transition: 0.3s;
+    &:hover,
+    &:focus,
+    &:active {
+      color: #2b88b4;
+    }
+  }
+}
+
+audio {
+  display: none;
 }

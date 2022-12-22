@@ -26,7 +26,6 @@
       rel="stylesheet"
       />
 
-      <script src="js/modernizr.custom.js"></script>
 
   </head>
   <body>
@@ -42,6 +41,25 @@
             class="animate"
           />
         </div>
+      </div>
+      <audio id="myAudio" controls loop>
+        <source src="https://detikx.github.io/kaleidoskop/assets/1.wav" type="audio/ogg" />
+        <source src="https://detikx.github.io/kaleidoskop/assets/1.wav" type="audio/wav" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <div
+        id="play-button"
+        class="sticky wow animate__animated animate__bounce animate animate__infinite"
+        data-wow-delay="0.5s"
+      >
+        <!-- <small class="teks">Putar musik</small> -->
+        <div class="play-button">
+          <i class="all fa fa-play-circle" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div hidden>
+        <h1>Test Kaleidoskop</h1>
       </div>
       <div class="haha">
         <img src="img/test.jpg" alt="">
