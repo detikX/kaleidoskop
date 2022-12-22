@@ -1,9 +1,8 @@
 $(document).ready(function(){
     new WOW().init();
     AOS.init({
-        duration: 1200,
+        duration: 700,
       })
-    // AOS.init();
 })
 // $(window).on("load", function () {
 //   $(".preloader").fadeOut(10000);
@@ -51,15 +50,15 @@ $.ajax({
 
             // data-aos="fade-right"
             $(".trimester-1").append(`
-                <div class="wrap-test ${addClass}">
+                <div class="wrap-test ${addClass}" data-aos="fade-right">
                     <div class="w-70">
-                    <div id="card-${id_}" data-id="${id_}" class="bulan" data-aos="fade-up">
+                    <div id="card-${id_}" data-id="${id_}" class="bulan">
                         <h2 class="skew-fix">${bulan}</h2>
                         <div class="click">
                         <img src="img/click.png" alt="" width="30">
                         </div>
                     </div>
-                    <ul data-aos="fade-up" data-aos-easing="ease-in-sine">
+                    <ul>
                         ${depan}
                     </ul>
                     </div>
