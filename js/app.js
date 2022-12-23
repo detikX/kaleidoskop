@@ -54,7 +54,7 @@ $.ajax({
                     <div class="w-70">
                     <div id="card-${id_}" data-id="${id_}" class="bulan">
                         <h2 class="skew-fix">${bulan}</h2>
-                        <div class="click">
+                        <div class="click d-none">
                         <img src="img/click.png" alt="" width="30">
                         </div>
                     </div>
@@ -131,3 +131,7 @@ function onChange(event) {
 btns.forEach((btn) => {
   btn.addEventListener("click", onChange);
 });
+
+$(".tutup").click(function(){
+  $(".box-infox").fadeOut();
+})

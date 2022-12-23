@@ -390,9 +390,9 @@ section {
 }
 .wrap-test {
   display: block;
-  min-height: 320px;
+  min-height: auto;
   @media screen and (max-width:766px) {
-    min-height: 200px;
+    min-height: auto;
   }
   ul {
     list-style-type: none;
@@ -408,6 +408,7 @@ section {
       position: relative;
       list-style-type: none;
       font-family: 'Rubik';
+      font-size: 19px;
       &::before {
         content: "";
         position: absolute;
@@ -806,4 +807,24 @@ section {
 
 audio {
   display: none;
+}
+
+.box-infox {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  text-align: center;
+  z-index: 99;
+  background: white;
+  .tutup {
+    
+    position: absolute;
+    right: -12px;
+    top: 20px;
+    i {
+      font-size: 26px;
+    }
+  }
 }
