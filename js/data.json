@@ -2,7 +2,7 @@
   {
     "id": 1,
     "bulan": "Januari",
-    "addClass":"min-400",
+    "addClass":"min-300",
     "popup":[
       {
         "img":"img/foto/januari-budi.jpeg",
@@ -58,7 +58,7 @@
   {
     "id": 4,
     "bulan": "April",
-    "addClass":"min-300",
+    "addClass":"min-400",
     "popup":[
       {
         "img":"img/foto/april-hotman.jpg",
@@ -176,7 +176,7 @@
   {
     "id": 10,
     "bulan": "Oktober",
-    "addClass":"min-300",
+    "addClass":"min-400",
     "popup":[
       {
         "img":"img/foto/oktober-kanjuruhan.png",
@@ -209,7 +209,7 @@
   {
     "id": 11,
     "bulan": "November",
-    "addClass":"min-150",
+    "addClass":"min-400",
     "popup":[
       {
         "img":"img/foto/november-kalideres.jpeg",
@@ -246,8 +246,8 @@
       },
       {
         "img":"img/foto/desember-messi.jpg",
-        "title":"Argentina Juara Piala Dunia",
-        "desc":"<p>KPU resmi mengumumkan partai-partai yang dinyatakan lolos sebagai peserta Pemilu 2024. Dalam pengumumannya, ada 17 partai politik yang dinyatakan lolos verifikasi faktual. Ke-17 parpol yang lolos menjadi peserta Pemilu 2024 tersebut adalah PDI Perjuangan, PKS, Perindo, NasDem dan PBB. Kemudian disusul PKN, Garuda, Demokrat, Gelora, hingga Hanura. Kemudian partai yang dinyatakan lolos </p>"
+        "title":"Argentina Juara Piala Dunia Qatar 2022!",
+        "desc":"<p>Argentina berhasil merebut trofi juara Piala Dunia 2022. Argentina mengalahkan Prancis di final melalui adu penalti 4-2 setelah bermain seri 3-3 sampai extratime di Stadion Lusail, Qatar, Minggu, 18 Desember 2022. Pertandingan berlangsung menegangkan dari awal sampai akhir karena kedua tim berbalas gol. Lionel Messi menciptakan dua dari tiga gol Argentina (satu penalti). Sementara itu, Kylian Mbappe mencetak hat-trick untuk Prancis, yang dua di antaranya terlahir dari titik putih. Dengan memukul Prancis, Argentina mengakhiri ‘puasa’ gelar juara dunia selama 36 tahun setelah terakhir menjuarai Piala Dunia pada 1986.</p>"
       }
 
     ]
