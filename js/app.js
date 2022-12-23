@@ -135,3 +135,7 @@ btns.forEach((btn) => {
 $(".tutup").click(function(){
   $(".box-infox").fadeOut();
 })
+
+$(".clapper").click(function(){
+  $(".c").eq('0').toggleClass('goyang')
+})

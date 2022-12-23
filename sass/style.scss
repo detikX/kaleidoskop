@@ -666,6 +666,10 @@ section {
   td {
     color: #d9e0e4;
   }
+
+  .goyang {
+    transform: rotate(-10deg);
+  }
   
   .clapper {
     background-color: #263238 ;
@@ -673,11 +677,11 @@ section {
     width: 100%;
     margin: 24px 0;
     position: relative;
-    &:hover {
-      .c:nth-of-type(1) {
-        transform: rotate(-10deg);
-      }
-    }
+    // &:hover {
+    //   .c:nth-of-type(1) {
+    //     transform: rotate(-10deg);
+    //   }
+    // }
   }
   .clapper > .c {
     background: repeating-linear-gradient(135deg, #263238  0%, #263238  10%, #fff 10%, #fff 20%);
