@@ -104,7 +104,7 @@ $(".scroll-down").click(() => {
   
   })
 
-  const pauseVar = "fa-pause-circle";
+/*const pauseVar = "fa-pause-circle";
 const playVar = "fa-play-circle";
 
 const btns = document.querySelectorAll(".all");
@@ -130,7 +130,7 @@ function onChange(event) {
 // query selector all returns a list of nodes, therefore we need to iterate over it and attach an event listener to each button seperatly
 btns.forEach((btn) => {
   btn.addEventListener("click", onChange);
-});
+}); */
 
 $(".tutup").click(function(){
   $(".box-infox").fadeOut();
