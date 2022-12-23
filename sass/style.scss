@@ -826,8 +826,8 @@ audio {
   @media screen and (max-width:766px) {
     font-size: 10px;
     // font-weight: bold;
-    padding: 8px 2px;
-    width: 62%;
+    padding: 4px;
+    width: 60%;
   }
   @media screen and (max-width:360px) {
     font-size: 9px !important;
@@ -837,6 +837,9 @@ audio {
     position: absolute;
     right: 8px;
     top: 2px;
+    @media screen and (max-width:766px) {
+      top: 1px;
+    }
     i {
       font-size: 26px;
       @media screen and (max-width:766px) {
