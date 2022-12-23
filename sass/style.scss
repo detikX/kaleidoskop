@@ -409,6 +409,9 @@ section {
       list-style-type: none;
       font-family: 'Rubik';
       font-size: 19px;
+      @media screen and (max-width:766px) {
+        font-size: 17px;
+      }
       &::before {
         content: "";
         position: absolute;
