@@ -288,8 +288,8 @@ section {
 
     @media screen and (max-width:766px) {
       top: -14px;
-      background-attachment: fixed;
-      background: url('../img/test3.jpg');
+      // background-attachment: fixed;
+      background-image: url('../img/test3.jpg');
     }
 
     img {
