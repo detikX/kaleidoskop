@@ -102,7 +102,7 @@
   {
     "id": 6,
     "bulan": "Juni",
-    "addClass":"min-300",
+    "addClass":"min-280",
     "popup":[
       {
         "img":"img/foto/juni-formula-e.jpeg",
@@ -119,7 +119,7 @@
   {
     "id": 7,
     "bulan": "Juli",
-    "addClass":"min-300",
+    "addClass":"min-200",
     "popup":[
       {
         "img":"img/foto/agustus-josua.jpeg",
@@ -148,7 +148,7 @@
   {
     "id": 9,
     "bulan": "September",
-    "addClass":"min-300",
+    "addClass":"min-400",
     "popup":[
       {
         "img":"img/foto/september-aung.jpeg",

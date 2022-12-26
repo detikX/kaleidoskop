@@ -25,27 +25,28 @@ h1 {
   padding: 0;
 }
 
-h1,
-p,
-li,
-div,
-table,
-h1,
-td,
-th,
-h2,
-h3 {
-  // font-family: "Aleo", sans-serif;
-  font-family: 'Rubik', sans-serif;
-  // color: #393536;
-  // color: #fafafa;
-}
 
-h1, h2, h3, h4, h5, h6, .body_text blockquote.sisip {
-  font-family: 'Rubik',sans-serif ;
-}
 
 main {
+  h1,
+  p,
+  li,
+  div,
+  table,
+  h1,
+  td,
+  th,
+  h2,
+  h3 {
+    // font-family: "Aleo", sans-serif;
+    font-family: 'Rubik', sans-serif;
+    // color: #393536;
+    // color: #fafafa;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .body_text blockquote.sisip {
+    font-family: 'Rubik',sans-serif ;
+  }
   // margin-bottom: 122px;
   position: relative;
   overflow-x: hidden;

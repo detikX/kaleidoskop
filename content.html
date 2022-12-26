@@ -10,6 +10,23 @@
       />
     </div>
   </div>
+  <!-- controls loop -->
+  <audio id="myAudio" hidden>
+    <source src="https://detikx.github.io/kaleidoskop/assets/1.wav" type="audio/ogg" />
+    <source src="https://detikx.github.io/kaleidoskop/assets/1.wav" type="audio/wav" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <div
+    id="play-button"
+    class="sticky wow animate__animated animate__bounce animate animate__infinite"
+    data-wow-delay="0.5s" hidden
+  >
+    <!-- <small class="teks">Putar musik</small> -->
+    <div class="play-button">
+      <i class="all fa fa-play-circle" aria-hidden="true"></i>
+    </div>
+  </div>
   <div hidden>
     <h1>Test Kaleidoskop</h1>
   </div>
@@ -37,6 +54,14 @@
 
 
     <div class="trimester-1">
+      <div class="box-infox">
+        <div class="tutup">
+          <i class="fa fa-times-circle" aria-hidden="true"></i>
+        </div>
+        <!-- <i class="fa fa-info-circle" aria-hidden="true"></i> -->
+        Klik nama bulan untuk selengkapnya
+      </div>
+
     </div>
 
     <div class="credits">
@@ -82,9 +107,6 @@
       <div id="komentar"><b style="font-size: 20px;">***Komentar***</b></div>
     </div>
   </div>
-</div>
-<div class="scroll-totop">
-  <i class="fa fa-angle-up" aria-hidden="true"></i>
 </div>
 
 <script src="js/jquery-3.5.1.min.js"></script>
