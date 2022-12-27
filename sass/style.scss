@@ -328,9 +328,13 @@ section {
     top: 130vh;
     padding: 202px 16px;
 
+    // @media screen and (max-width:375px) {
+    //   top: 90vh !important;
+    // }
+    
     @media screen and (max-width:766px) {
       padding: 16px;
-      top: 90vh;
+      top: 18%;
     }
 
     @media screen and (min-width:1800px) {
