@@ -102,7 +102,7 @@
   {
     "id": 6,
     "bulan": "Juni",
-    "addClass":"min-280",
+    "addClass":"min-300",
     "popup":[
       {
         "img":"img/foto/juni-formula-e.jpeg",
@@ -248,6 +248,11 @@
         "img":"img/foto/desember-messi.jpg",
         "title":"Argentina Juara Piala Dunia Qatar 2022!",
         "desc":"<p>Argentina berhasil merebut trofi juara Piala Dunia 2022. Argentina mengalahkan Prancis di final melalui adu penalti 4-2 setelah bermain seri 3-3 sampai <i>extratime</i> di Stadion Lusail, Qatar, Minggu, 18 Desember 2022. Pertandingan berlangsung menegangkan dari awal sampai akhir karena kedua tim berbalas gol. Lionel Messi menciptakan dua dari tiga gol Argentina (satu penalti). Sementara itu, Kylian Mbappe mencetak <i>hat-trick</i> untuk Prancis, yang dua di antaranya terlahir dari titik putih. Dengan memukul Prancis, Argentina mengakhiri ‘puasa’ gelar juara dunia selama 36 tahun setelah terakhir menjuarai Piala Dunia pada 1986.</p>"
+      },
+      {
+        "img":"img/foto/desember-bom.jpeg",
+        "title":"Bom Bunuh Diri di Bandung",
+        "desc":"<p>Serangan teroris kembali terjadi di Indonesia. Bom bunuh diri terjadi di Polsek Astana Anyar, Kota Bandung, Jawa Barat, 7 Desember 2022. Pelaku diidentifikasi sebagai Agus Sujatno alias Abu Muslim, mantan terpidana kasus terorisme yang bebas pada Maret 2021. Bom bunuh diri ini menewaskan pelaku dan juga seorang anggota Polsek Astana Anyar, Aipda Sopyan.</p>"
       }
 
     ]
